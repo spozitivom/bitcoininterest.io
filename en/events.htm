@@ -1,0 +1,838 @@
+<!DOCTYPE HTML><!-- saved from url=(0028)http://bitcoin.org/en/events --><meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+
+<html lang="en">
+
+<head>
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta property="og:image" content="https://bitcoin.org/img/icons/opengraph.png?1535137558" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Conferences and Events - Bitcoin</title>
+
+<link rel="stylesheet" href="../css/font-awesome-4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../css/main.css@1535137558.css">
+<!--[if lt IE 8]><link rel="stylesheet" href="../css/ie.css"><script type="text/javascript" src="../js/ie.js"></script><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" href="../css/ie8.css"><![endif]-->
+
+
+<script type="text/javascript" src="../js/base.js@1535137558.js"></script>
+<script type="text/javascript" src="../js/main.js@1535137558.js"></script>
+<script src="../js/jquery/jquery-1.11.2.min.js"></script>
+<script src="../js/jquery/jquery.qrcode.min.js"></script>
+<link rel="shortcut icon" href="../favicon.png@1535137558.png">
+<link rel="apple-touch-icon-precomposed" href="../img/icons/logo_ios.png@1535137558.png"/>
+<script>
+    window.cookieconsent_options = {
+        theme: 'light-floating'
+    }
+</script>
+<script type="text/javascript" src="../js/cookieconsent/cookieconsent.js@1535137558.js"></script>
+<script>
+if( navigator.doNotTrack != "yes" && navigator.doNotTrack != "1" && window.doNotTrack != "1" && navigator.msDoNotTrack != "1" ){
+	var script = document.createElement('script');
+	script.src = '../js/analytics.js'
+	document.getElementsByTagName("head")[0].appendChild(script);
+}
+</script>
+
+</head>
+
+<body>
+
+
+
+
+
+<div id="donation-modal" style="display: none" class="donation-modal hidden">
+  <div class="modal-dialog">
+    <div class="modal-header">
+      <div class="modal-close-btn" onclick="closeDonationModal()">×</div>
+      <p class="modal-header-text section-title">Donate to Bitcoin.org</p>
+    </div>
+    <p class="modal-subheader">Use this QR code or address below</p>
+    <div style="text-align: center;">
+      <div id="donation-qr-code" data-address="3FkenCiXpSLqD8L79intRNXUgjRoH9sjXa"></div>
+    </div>
+    <div>
+      <a
+        class="donation-btc-address"
+        href="default.htm"
+        target="_blank">
+        3FkenCiXpSLqD8L79intRNXUgjRoH9sjXa
+      </a>
+    </div>
+    <div class="modal-body bg-white" style="overflow-y:hidden;text-align: center;">
+      <div>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="5">
+          $5.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="25">
+          $25.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="50">
+          $50.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+      </div>
+
+      <div>
+        <input
+          style="margin-right: 15px"
+          type="text"
+          placeholder="Or custom amount? (BTC)"
+          id="donation-input-amount-btc" class="donation-amount-input">
+        <input
+          type="text"
+          placeholder="Or custom amount? (USD)"
+          id="donation-input-amount-usd" class="donation-amount-input">
+      </div>
+
+      <div>
+        <textarea
+          class="donation-amount-input"
+          id="donation-input-message"
+          placeholder="Optional description (for your wallet)"></textarea>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="detectmobile" class="detectmobile"></div>
+
+
+
+
+
+
+
+<div class="head"><div>
+  
+
+<a class="logo" href="default.htm"><img src="../img/icons/logotop.png@1535137558.png" alt="Bitcoin"></a>
+
+  
+
+<ul id="menusimple" class="menusimple menumain" onclick="mobileMenuHover(event);" ontouchstart="mobileMenuHover(event);">
+  <li><a class="is-expand">Introduction</a>
+    <ul>
+      <li><a href="bitcoin-for-individuals.htm">Individuals</a></li>
+      <li><a href="bitcoin-for-businesses.htm">Businesses</a></li>
+      <li><a href="bitcoin-for-developers.htm">Developers</a></li>
+      <li><a href="getting-started.htm">Getting started</a></li>
+      <li><a href="how-it-works.htm">How it works</a></li>
+      <li><a href="you-need-to-know.htm">You need to know</a></li>
+    </ul>
+  </li>
+  <li><a class="is-expand">Resources</a>
+    <ul>
+      <li><a href="resources.htm">Resources</a>
+      <li><a href="exchanges.htm">Exchanges</a></li>
+      <li><a href="community.htm">Community</a></li>
+      
+      
+      <li><a href="developer-documentation.htm">Documentation</a></li>
+      
+      <li><a href="vocabulary.htm">Vocabulary</a></li>
+      <li class="active"><a href="events.htm">Events</a></li>
+      
+        <li><a href="bitcoin-core/default.htm">Bitcoin Core</a></li>
+      
+    </ul>
+  </li>
+  <li><a href="innovation.htm">Innovation</a></li>
+  <li><a class="is-expand">Participate</a>
+    <ul>
+      <li><a href="support-bitcoin.htm">Support Bitcoin</a>
+      <li><a href="buy.htm">Buy Bitcoin</a></li>
+      <li><a href="full-node.htm">Running a full node</a></li>
+      <li><a href="development.htm">Development</a></li>
+    </ul>
+  </li>
+  <li><a href="faq.htm">FAQ</a></li>
+</ul>
+
+  
+
+<a id="menumobile" class="menumobile" onclick="mobileMenuShow(event);" ontouchstart="mobileMenuShow(event);"></a>
+
+  
+<ul class="lang is-expand">
+  <li><a>English</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="../id/acara">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="../da/begivenheder">Dansk</a></li>
+        
+        
+          <li><a href="../de/events">Deutsch</a></li>
+        
+        
+          <li><a href="events.htm" class="active">English</a></li>
+        
+        
+          <li><a href="../es/eventos">Español</a></li>
+        
+        
+          <li><a href="../fr/evenements">Français</a></li>
+        
+        
+          <li><a href="../it/eventi">Italiano</a></li>
+        
+        
+          <li><a href="../hu/rendezvenyek">Magyar</a></li>
+        
+        
+          <li><a href="../nl/evenementen">Nederlands</a></li>
+        
+        
+          <li><a href="../pl/wydarzenia">Polski</a></li>
+        
+        
+          <li><a href="../pt_br/eventos">Português Brasil</a></li>
+        
+        
+          <li><a href="../ro/evenimente">Română</a></li>
+        
+        
+          <li><a href="../sl/dogodki">Slovenščina</a></li>
+        
+        
+          <li><a href="../sr/dogadaji">Srpski</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="../sv/evenemang">Svenska</a></li>
+        
+        
+          <li><a href="../tr/etkinlikler">Türkçe</a></li>
+        
+        
+          <li><a href="../el/events">Ελληνικά</a></li>
+        
+        
+          <li><a href="../bg/events">български</a></li>
+        
+        
+          <li><a href="../ru/events">Русский</a></li>
+        
+        
+          <li><a href="../uk/events">Українська</a></li>
+        
+        
+          <li><a href="../ar/events">العربية</a></li>
+        
+        
+          <li><a href="../fa/events">فارسی</a></li>
+        
+        
+          <li><a href="../hi/events">हिन्दी</a></li>
+        
+        
+          <li><a href="../ko/events">한국의</a></li>
+        
+        
+          <li><a href="../ja/events">日本語</a></li>
+        
+        
+          <li><a href="../zh_cn/events">简体中文</a></li>
+        
+        
+          <li><a href="../zh_tw/events">繁體中文</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+
+  
+<div id="langselect" class="langselect">
+    <label for="select-input" class="center-select">
+        <select id="select-input" class="center-select__input" onchange="window.location=this.value;">
+            
+            <option value="../id/acara" >Bahasa Indonesia</option>
+            
+            <option value="../da/begivenheder" >Dansk</option>
+            
+            <option value="../de/events" >Deutsch</option>
+            
+            <option value="events"  selected="selected">English</option>
+            
+            <option value="../es/eventos" >Español</option>
+            
+            <option value="../fr/evenements" >Français</option>
+            
+            <option value="../it/eventi" >Italiano</option>
+            
+            <option value="../hu/rendezvenyek" >Magyar</option>
+            
+            <option value="../nl/evenementen" >Nederlands</option>
+            
+            <option value="../pl/wydarzenia" >Polski</option>
+            
+            <option value="../pt_br/eventos" >Português Brasil</option>
+            
+            <option value="../ro/evenimente" >Română</option>
+            
+            <option value="../sl/dogodki" >Slovenščina</option>
+            
+            <option value="../sr/dogadaji" >Srpski</option>
+            
+            <option value="../sv/evenemang" >Svenska</option>
+            
+            <option value="../tr/etkinlikler" >Türkçe</option>
+            
+            <option value="../el/events" >Ελληνικά</option>
+            
+            <option value="../bg/events" >български</option>
+            
+            <option value="../ru/events" >Русский</option>
+            
+            <option value="../uk/events" >Українська</option>
+            
+            <option value="../ar/events" >العربية</option>
+            
+            <option value="../fa/events" >فارسی</option>
+            
+            <option value="../hi/events" >हिन्दी</option>
+            
+            <option value="../ko/events" >한국의</option>
+            
+            <option value="../ja/events" >日本語</option>
+            
+            <option value="../zh_cn/events" >简体中文</option>
+            
+            <option value="../zh_tw/events" >繁體中文</option>
+            
+        </select>
+        <span class="center-select__text">Language: <span class="is-capital">en</span></span>
+    </label>
+</div>
+
+</div></div>
+
+<div class="body">
+  
+
+<div class="breadcrumbs">
+  <div class="container">
+    
+  </div>
+</div>
+
+  
+
+<div id="content" class="content">
+  
+<!-- Note: this file is built non-deterministically -->
+<link rel="alternate" type="application/rss+xml" href="rss/events.rss" title="Bitcoin conferences and events">
+<div class="hero">
+  <div class="container hero-container">
+    <h1>Conferences and Events</h1>
+    <p class="summary">Find events, conferences and meetups all over the world. <a class="rss-link" type="application/rss+xml" href="rss/events.rss">Subscribe to the RSS feed.</a></p>
+    
+
+<div class="row hero-social">
+  <a href="default.htm" onclick="window.open('../../www.facebook.com/sharer/sharer.php@u=' + encodeURIComponent(location.href))" class="hero-social-link" target="_blank">
+    <img src="../img/icons/ico_facebook_bright.svg@1535137558.xml" alt="facebook">
+  </a>
+  <a href="default.htm" onclick="window.open('../../https@twitter.com/share@url=' + encodeURIComponent(location.href))" class="hero-social-link" target="_blank">
+    <img src="../img/icons/ico_twitter_bright.svg@1535137558.xml" alt="twitter">
+  </a>
+</div>
+  </div>
+</div>
+
+<link rel="stylesheet" type="text/css" href="../js/leaflet/leaflet.css" />
+<link rel="stylesheet" type="text/css" href="../js/leaflet-markercluster/markercluster.css" />
+<link rel="stylesheet" type="text/css" href="../js/leaflet-markercluster/markercluster.default.css" />
+<script src="../js/leaflet/leaflet.js"></script>
+<script src="../js/leaflet-markercluster/leaflet.markercluster.js"></script>
+<div id="eventmap" class="eventmap"></div>
+<div id="eventdata" class="eventdata">
+
+
+<div data-lat="52.5411538" data-lon="13.3909245"><b><a href="../../https@lightninghackday.fulmo.org/default.htm">Lightning Hackday #3</a></b><br>2018-09-01<br>Ahoy Berlin<br>Wattstrasse 11<br>Berlin, Germany</div>
+
+<div data-lat="41.3568134" data-lon="2.1779249"><b><a href="../../https@coinsbank.com/cruise-europe">CoinsBank Blockchain Cruise</a></b><br>2018-09-07<br>Vision of the Seas cruise ship<br>Barcelona Cruise Terminal B, c. Moll Adossat<br>Barcelona, Spain</div>
+
+<div data-lat="56.95306679999999" data-lon="24.0738475"><b><a href="../../https@bh2018.hodlhodl.com/default.htm">Baltic Honeybadger</a></b><br>2018-09-22<br>RISEBA Arhitektūras un mediju centrs H20 6<br>Durbes iela 4<br>Riga, Latvia</div>
+
+<div data-lat="35.6489643" data-lon="139.7429376"><b><a href="../../https@tokyo2018.scalingbitcoin.org/default.htm">Scaling Bitcoin 2018</a></b><br>2018-10-06<br>Keio University<br>2 Chome-15-45 Mita, Minato-ku Tōkyō-to 108-8345, Japan<br>Tokyo, Japan</div>
+
+<div data-lat="37.86911389999999" data-lon="-122.2597728"><b><a href="../../https@cesc.io/default.htm">CryptoEconomics Security Conference 2018</a></b><br>2018-10-15<br>Pauly Ballroom<br>2475 Bancroft Way, 94720<br>Berkeley, United States</div>
+
+<div data-lat="30.2819957" data-lon="-97.7406333"><b><a href="../../https@texasbitcoinconference.com/default.htm">Texas Bitcoin Conference</a></b><br>2018-10-27<br>AT&amp;T Executive Education &amp; Conference Center<br>1900 University Ave, 78705<br>Austin, United States</div>
+
+<div data-lat="36.1073485" data-lon="-115.1765836"><b><a href="../../www.worldcryptocon.com/default.htm">World Crypto Con</a></b><br>2018-10-31<br>Aria Hotel and Casino<br>3730 South Las Vegas Blvd.<br>Las Vegas, United States</div>
+
+<div data-lat="35.9258157" data-lon="14.4878437"><b><a href="../../maltablockchainsummit.com/default.htm">Malta Blockchain Summit</a></b><br>2018-11-01<br>InterContinental<br>St George&apos;s Bay<br>St Julian&apos;s, Malta</div>
+
+<div data-lat="-3.7244045" data-lon="-38.5125728"><b><a href="../../www.bitconf.com.br/2018ce/default.htm">Bitconf Summer Edition</a></b><br>2018-11-16<br>Fabrica de negocios<br>Av. Monsenhor Tabosa, 740<br>Fortaleza, Brasil</div>
+
+
+</div>
+<script src="../js/events.js"></script>
+
+<div class="events">
+  <div class="container">
+    <h2 class="section-title events-title center" id="upcoming">Upcoming Events and Conferences</h2>
+    <ul class="post-list clearfix">
+      
+      <li class="post">
+        <div class="post-inner">
+          <p class="post-date">2018-09-01</p>
+          <p class="post-name">Lightning Hackday #3</p>
+          <p class="post-location">Berlin, Germany</p>
+          <p class="post-description">
+            <!-- Event description -->
+          </p>
+          <a class="button btn-bright" href="../../https@lightninghackday.fulmo.org/default.htm">Read more</a>
+        </div>
+      </li>
+      
+      <li class="post">
+        <div class="post-inner">
+          <p class="post-date">2018-09-07</p>
+          <p class="post-name">CoinsBank Blockchain Cruise</p>
+          <p class="post-location">Barcelona, Spain</p>
+          <p class="post-description">
+            <!-- Event description -->
+          </p>
+          <a class="button btn-bright" href="../../https@coinsbank.com/cruise-europe">Read more</a>
+        </div>
+      </li>
+      
+      <li class="post">
+        <div class="post-inner">
+          <p class="post-date">2018-09-22</p>
+          <p class="post-name">Baltic Honeybadger</p>
+          <p class="post-location">Riga, Latvia</p>
+          <p class="post-description">
+            <!-- Event description -->
+          </p>
+          <a class="button btn-bright" href="../../https@bh2018.hodlhodl.com/default.htm">Read more</a>
+        </div>
+      </li>
+      
+      <li class="post">
+        <div class="post-inner">
+          <p class="post-date">2018-10-06</p>
+          <p class="post-name">Scaling Bitcoin 2018</p>
+          <p class="post-location">Tokyo, Japan</p>
+          <p class="post-description">
+            <!-- Event description -->
+          </p>
+          <a class="button btn-bright" href="../../https@tokyo2018.scalingbitcoin.org/default.htm">Read more</a>
+        </div>
+      </li>
+      
+      <li class="post">
+        <div class="post-inner">
+          <p class="post-date">2018-10-15</p>
+          <p class="post-name">CryptoEconomics Security Conference 2018</p>
+          <p class="post-location">Berkeley, United States</p>
+          <p class="post-description">
+            <!-- Event description -->
+          </p>
+          <a class="button btn-bright" href="../../https@cesc.io/default.htm">Read more</a>
+        </div>
+      </li>
+      
+      <li class="post">
+        <div class="post-inner">
+          <p class="post-date">2018-10-27</p>
+          <p class="post-name">Texas Bitcoin Conference</p>
+          <p class="post-location">Austin, United States</p>
+          <p class="post-description">
+            <!-- Event description -->
+          </p>
+          <a class="button btn-bright" href="../../https@texasbitcoinconference.com/default.htm">Read more</a>
+        </div>
+      </li>
+      
+      <li class="post">
+        <div class="post-inner">
+          <p class="post-date">2018-10-31</p>
+          <p class="post-name">World Crypto Con</p>
+          <p class="post-location">Las Vegas, United States</p>
+          <p class="post-description">
+            <!-- Event description -->
+          </p>
+          <a class="button btn-bright" href="../../www.worldcryptocon.com/default.htm">Read more</a>
+        </div>
+      </li>
+      
+      <li class="post">
+        <div class="post-inner">
+          <p class="post-date">2018-11-01</p>
+          <p class="post-name">Malta Blockchain Summit</p>
+          <p class="post-location">St Julian&apos;s, Malta</p>
+          <p class="post-description">
+            <!-- Event description -->
+          </p>
+          <a class="button btn-bright" href="../../maltablockchainsummit.com/default.htm">Read more</a>
+        </div>
+      </li>
+      
+      <li class="post">
+        <div class="post-inner">
+          <p class="post-date">2018-11-16</p>
+          <p class="post-name">Bitconf Summer Edition</p>
+          <p class="post-location">Fortaleza, Brasil</p>
+          <p class="post-description">
+            <!-- Event description -->
+          </p>
+          <a class="button btn-bright" href="../../www.bitconf.com.br/2018ce/default.htm">Read more</a>
+        </div>
+      </li>
+      
+    </ul>
+    <div class="btn-container">
+      <button class="button btn-dark" id="loadMore">Load more events</button>
+    </div>
+    <div class="additional-links events-links row">
+      <div>
+        <p><a href="../../bitcoin.meetup.com/default.htm">Bitcoin meetup groups</a></p>
+        <p><a href="../../https@bitcointalk.org/index.php@board=86.0">Bitcoin meetups on BitcoinTalk</a></p>
+        <p><a href="../../https@en.bitcoin.it/wiki/meetups">Bitcoin meetups on the Wiki</a></p>
+      </div>
+      <div>
+        <a class="button btn-bright event-btn" href="../../https@github.com/bitcoin-dot-org/bitcoin.org/issues/new@title=new%20event&body=%20%20%20%20-%20date_253a%20yyyy-mm-dd_250a%20%20%20%20%20%20title_253a%20_2522_2522_250a%20%20%20%20%20%20venue_253a%20_252_010b027251">Submit an event</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="../js/loadmoreposts.js"></script>
+
+</div>
+
+  <div class="footer">
+    <div class="container">
+       
+
+<a class="logo-footer" href="default.htm">
+  <img src="../img/icons/logo-footer.svg@1535137558.xml" alt="Bitcoin">
+</a> 
+       
+
+<div class="row footer-row">
+  <div class="donate">
+    <div class="row donate-row">
+      <div>
+        <span class="footer-title">Support Bitcoin.org:</span>
+        <a onclick="openDonationModal()" class="donate-btn btn-bright">Donate</a>
+        <p class="donate-text">Bitcoin.org is community supported.
+          <a class="donate-link" href="default.htm" target="_blank">3FkenCiXpSLqD8L79intRNXUgjRoH9sjXa</a>
+        </p>
+      </div>
+      <div class="donate-qrcode">
+        <img src="../img/footer/qr.png@1535137558.png" alt="QR code">
+      </div>
+    </div>
+  </div>
+  
+  <div class="row footermenu">
+    <div class="footermenu-item footermenu-introduction">
+      <p class="footer-title">Introduction:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="bitcoin-for-individuals.htm">Individuals</a>
+        </li>
+        <li>
+          <a href="bitcoin-for-businesses.htm">Businesses</a>
+        </li>
+        <li>
+          <a href="bitcoin-for-developers.htm">Developers</a>
+        </li>
+        <li>
+          <a href="getting-started.htm">Getting started</a>
+        </li>
+        <li>
+          <a href="how-it-works.htm">How it works</a>
+        </li>
+        <li>
+          <a href="you-need-to-know.htm">You need to know</a>
+        </li>
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-resources">
+      <p class="footer-title">Resources:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="resources.htm">Resources</a>
+        
+        <li>
+          <a href="exchanges.htm">Exchanges</a>
+        </li>
+        
+        <li>
+          <a href="community.htm">Community</a>
+        </li>
+        <li>
+          <a href="vocabulary.htm">Vocabulary
+          </a>
+        </li>
+        <li class="active">
+          <a href="events.htm">Events</a>
+        </li>
+        
+        <li>
+          <a href="bitcoin-core/default.htm">Bitcoin Core</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-participate">
+      <p class="footer-title">Participate:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="support-bitcoin.htm">Support Bitcoin</a>
+        
+        <li>
+          <a href="buy.htm">Buy Bitcoin</a>
+        </li>
+        
+        
+        <li>
+          <a href="full-node.htm">Running a full node</a>
+        </li>
+        
+        <li>
+          <a href="development.htm">Development</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footermenu-item footermenu-other">
+      <p class="footer-title">Other:</p>
+      
+      <a href="scams.htm">Avoid Scams</a>
+      
+      <a href="legal.htm">Legal</a>
+      
+      <a href="privacy.htm">Privacy Policy</a>
+      
+      <a href="press.htm">Press</a>
+      <a href="about-us.htm">About bitcoin.org</a>
+      <a href="blog.htm">Blog</a>
+    </div>
+  </div>
+</div>
+ 
+       
+
+<div class="footersponsor">
+  <!--<div><span>A community website sponsored by</span> <a href="https://bitcoinfoundation.org/"><img src="/img/brand/bitcoinfoundation.png?1535137558" alt="Bitcoin Foundation"></a></div>-->
+</div>
+
+    </div>
+    
+
+<div class="footer-bottom">
+  <div class="container">
+    <div class="row footer-bottom-row">
+      <div class="footerlicense">© Bitcoin Project 2009-2018 Released under the <a href="../../opensource.org/licenses/mit-license.php" target="_blank">MIT license</a></div>
+      <div class="row footer-social">
+        <a href="default.htm" onclick="window.open('../../www.facebook.com/sharer/sharer.php@u=' + encodeURIComponent(location.href))" class="footer-social-link" target="_blank">
+          <img src="../img/icons/ico_facebook_dark.svg@1535137558.xml" alt="facebook" class="footer-social-img">
+        </a>
+        <a href="default.htm" onclick="window.open('../../https@twitter.com/share@url=' + encodeURIComponent(location.href))" class="footer-social-link" target="_blank">
+          <img src="../img/icons/ico_twitter_dark.svg@1535137558.xml" alt="twitter" class="footer-social-img">
+        </a>
+      </div>
+      <div class="row footer-status-block">
+        <a href="alerts.htm" class="statusmenu">Network Status</a>
+        
+<ul class="lang is-expand">
+  <li><a>English</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="../id/acara">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="../da/begivenheder">Dansk</a></li>
+        
+        
+          <li><a href="../de/events">Deutsch</a></li>
+        
+        
+          <li><a href="events.htm" class="active">English</a></li>
+        
+        
+          <li><a href="../es/eventos">Español</a></li>
+        
+        
+          <li><a href="../fr/evenements">Français</a></li>
+        
+        
+          <li><a href="../it/eventi">Italiano</a></li>
+        
+        
+          <li><a href="../hu/rendezvenyek">Magyar</a></li>
+        
+        
+          <li><a href="../nl/evenementen">Nederlands</a></li>
+        
+        
+          <li><a href="../pl/wydarzenia">Polski</a></li>
+        
+        
+          <li><a href="../pt_br/eventos">Português Brasil</a></li>
+        
+        
+          <li><a href="../ro/evenimente">Română</a></li>
+        
+        
+          <li><a href="../sl/dogodki">Slovenščina</a></li>
+        
+        
+          <li><a href="../sr/dogadaji">Srpski</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="../sv/evenemang">Svenska</a></li>
+        
+        
+          <li><a href="../tr/etkinlikler">Türkçe</a></li>
+        
+        
+          <li><a href="../el/events">Ελληνικά</a></li>
+        
+        
+          <li><a href="../bg/events">български</a></li>
+        
+        
+          <li><a href="../ru/events">Русский</a></li>
+        
+        
+          <li><a href="../uk/events">Українська</a></li>
+        
+        
+          <li><a href="../ar/events">العربية</a></li>
+        
+        
+          <li><a href="../fa/events">فارسی</a></li>
+        
+        
+          <li><a href="../hi/events">हिन्दी</a></li>
+        
+        
+          <li><a href="../ko/events">한국의</a></li>
+        
+        
+          <li><a href="../ja/events">日本語</a></li>
+        
+        
+          <li><a href="../zh_cn/events">简体中文</a></li>
+        
+        
+          <li><a href="../zh_tw/events">繁體中文</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+ 
+        <div id="footer-langselect" class="footer-langselect langselect">
+          <label for="select-input-footer" class="center-select">
+            <select class="center-select__input" onchange="window.location=this.value; ">
+              
+              <option value="../id/acara" >Bahasa Indonesia</option>
+              
+              <option value="../da/begivenheder" >Dansk</option>
+              
+              <option value="../de/events" >Deutsch</option>
+              
+              <option value="events"  selected="selected">English</option>
+              
+              <option value="../es/eventos" >Español</option>
+              
+              <option value="../fr/evenements" >Français</option>
+              
+              <option value="../it/eventi" >Italiano</option>
+              
+              <option value="../hu/rendezvenyek" >Magyar</option>
+              
+              <option value="../nl/evenementen" >Nederlands</option>
+              
+              <option value="../pl/wydarzenia" >Polski</option>
+              
+              <option value="../pt_br/eventos" >Português Brasil</option>
+              
+              <option value="../ro/evenimente" >Română</option>
+              
+              <option value="../sl/dogodki" >Slovenščina</option>
+              
+              <option value="../sr/dogadaji" >Srpski</option>
+              
+              <option value="../sv/evenemang" >Svenska</option>
+              
+              <option value="../tr/etkinlikler" >Türkçe</option>
+              
+              <option value="../el/events" >Ελληνικά</option>
+              
+              <option value="../bg/events" >български</option>
+              
+              <option value="../ru/events" >Русский</option>
+              
+              <option value="../uk/events" >Українська</option>
+              
+              <option value="../ar/events" >العربية</option>
+              
+              <option value="../fa/events" >فارسی</option>
+              
+              <option value="../hi/events" >हिन्दी</option>
+              
+              <option value="../ko/events" >한국의</option>
+              
+              <option value="../ja/events" >日本語</option>
+              
+              <option value="../zh_cn/events" >简体中文</option>
+              
+              <option value="../zh_tw/events" >繁體中文</option>
+              
+            </select>
+            <span class="center-select__text">en</span>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+
+
+<script type="text/javascript">
+  fallbackSVG();
+  addAnchorLinks();
+  trackOutgoingLinks();
+</script>
+
+
+
+
+
+
+</body>
+
+</html>

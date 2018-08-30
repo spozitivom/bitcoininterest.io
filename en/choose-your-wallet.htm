@@ -1,0 +1,1912 @@
+<!DOCTYPE HTML><!-- saved from url=(0040)http://bitcoin.org/en/choose-your-wallet --><meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+
+<html lang="en">
+
+<head>
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta property="og:image" content="https://bitcoin.org/img/icons/opengraph.png?1535137558" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Choose your wallet - Bitcoin</title>
+
+<link rel="stylesheet" href="../css/font-awesome-4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../css/main.css@1535137558.css">
+<!--[if lt IE 8]><link rel="stylesheet" href="../css/ie.css"><script type="text/javascript" src="../js/ie.js"></script><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" href="../css/ie8.css"><![endif]-->
+
+
+<script type="text/javascript" src="../js/base.js@1535137558.js"></script>
+<script type="text/javascript" src="../js/main.js@1535137558.js"></script>
+<script src="../js/jquery/jquery-1.11.2.min.js"></script>
+<script src="../js/jquery/jquery.qrcode.min.js"></script>
+<link rel="shortcut icon" href="../favicon.png@1535137558.png">
+<link rel="apple-touch-icon-precomposed" href="../img/icons/logo_ios.png@1535137558.png"/>
+<script>
+    window.cookieconsent_options = {
+        theme: 'light-floating'
+    }
+</script>
+<script type="text/javascript" src="../js/cookieconsent/cookieconsent.js@1535137558.js"></script>
+<script>
+if( navigator.doNotTrack != "yes" && navigator.doNotTrack != "1" && window.doNotTrack != "1" && navigator.msDoNotTrack != "1" ){
+	var script = document.createElement('script');
+	script.src = '../js/analytics.js'
+	document.getElementsByTagName("head")[0].appendChild(script);
+}
+</script>
+
+</head>
+
+<body>
+
+
+
+
+
+<div id="donation-modal" style="display: none" class="donation-modal hidden">
+  <div class="modal-dialog">
+    <div class="modal-header">
+      <div class="modal-close-btn" onclick="closeDonationModal()">×</div>
+      <p class="modal-header-text section-title">Donate to Bitcoin.org</p>
+    </div>
+    <p class="modal-subheader">Use this QR code or address below</p>
+    <div style="text-align: center;">
+      <div id="donation-qr-code" data-address="3FkenCiXpSLqD8L79intRNXUgjRoH9sjXa"></div>
+    </div>
+    <div>
+      <a
+        class="donation-btc-address"
+        href="default.htm"
+        target="_blank">
+        3FkenCiXpSLqD8L79intRNXUgjRoH9sjXa
+      </a>
+    </div>
+    <div class="modal-body bg-white" style="overflow-y:hidden;text-align: center;">
+      <div>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="5">
+          $5.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="25">
+          $25.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="50">
+          $50.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+      </div>
+
+      <div>
+        <input
+          style="margin-right: 15px"
+          type="text"
+          placeholder="Or custom amount? (BTC)"
+          id="donation-input-amount-btc" class="donation-amount-input">
+        <input
+          type="text"
+          placeholder="Or custom amount? (USD)"
+          id="donation-input-amount-usd" class="donation-amount-input">
+      </div>
+
+      <div>
+        <textarea
+          class="donation-amount-input"
+          id="donation-input-message"
+          placeholder="Optional description (for your wallet)"></textarea>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="detectmobile" class="detectmobile"></div>
+
+
+
+
+
+
+
+<div class="head"><div>
+  
+
+<a class="logo" href="default.htm"><img src="../img/icons/logotop.png@1535137558.png" alt="Bitcoin"></a>
+
+  
+
+<ul id="menusimple" class="menusimple menumain" onclick="mobileMenuHover(event);" ontouchstart="mobileMenuHover(event);">
+  <li><a class="is-expand">Introduction</a>
+    <ul>
+      <li><a href="bitcoin-for-individuals.htm">Individuals</a></li>
+      <li><a href="bitcoin-for-businesses.htm">Businesses</a></li>
+      <li><a href="bitcoin-for-developers.htm">Developers</a></li>
+      <li><a href="getting-started.htm">Getting started</a></li>
+      <li><a href="how-it-works.htm">How it works</a></li>
+      <li><a href="you-need-to-know.htm">You need to know</a></li>
+    </ul>
+  </li>
+  <li><a class="is-expand">Resources</a>
+    <ul>
+      <li><a href="resources.htm">Resources</a>
+      <li><a href="exchanges.htm">Exchanges</a></li>
+      <li><a href="community.htm">Community</a></li>
+      
+      
+      <li><a href="developer-documentation.htm">Documentation</a></li>
+      
+      <li><a href="vocabulary.htm">Vocabulary</a></li>
+      <li><a href="events.htm">Events</a></li>
+      
+        <li><a href="bitcoin-core/default.htm">Bitcoin Core</a></li>
+      
+    </ul>
+  </li>
+  <li><a href="innovation.htm">Innovation</a></li>
+  <li><a class="is-expand">Participate</a>
+    <ul>
+      <li><a href="support-bitcoin.htm">Support Bitcoin</a>
+      <li><a href="buy.htm">Buy Bitcoin</a></li>
+      <li><a href="full-node.htm">Running a full node</a></li>
+      <li><a href="development.htm">Development</a></li>
+    </ul>
+  </li>
+  <li><a href="faq.htm">FAQ</a></li>
+</ul>
+
+  
+
+<a id="menumobile" class="menumobile" onclick="mobileMenuShow(event);" ontouchstart="mobileMenuShow(event);"></a>
+
+  
+<ul class="lang is-expand">
+  <li><a>English</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="../id/pilih-wallet-anda">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="../da/vaelg-din-tegnebog">Dansk</a></li>
+        
+        
+          <li><a href="../de/waehlen-sie-ihre-wallet">Deutsch</a></li>
+        
+        
+          <li><a href="choose-your-wallet.htm" class="active">English</a></li>
+        
+        
+          <li><a href="../es/elige-tu-monedero">Español</a></li>
+        
+        
+          <li><a href="../fr/choisir-votre-porte-monnaie">Français</a></li>
+        
+        
+          <li><a href="../it/scegli-il-tuo-portafoglio">Italiano</a></li>
+        
+        
+          <li><a href="../hu/valasszon-penztarcat">Magyar</a></li>
+        
+        
+          <li><a href="../nl/kies-uw-portemonnee">Nederlands</a></li>
+        
+        
+          <li><a href="../pl/wybierz-swoj-portfel">Polski</a></li>
+        
+        
+          <li><a href="../pt_br/escolha-sua-carteira">Português Brasil</a></li>
+        
+        
+          <li><a href="../ro/alege-portofelul">Română</a></li>
+        
+        
+          <li><a href="../sl/izberite-denarnico">Slovenščina</a></li>
+        
+        
+          <li><a href="../sr/izaberite-vas-novcanik">Srpski</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="../sv/valj-din-planbok">Svenska</a></li>
+        
+        
+          <li><a href="../tr/cuzdaninizi-secin">Türkçe</a></li>
+        
+        
+          <li><a href="../el/choose-your-wallet">Ελληνικά</a></li>
+        
+        
+          <li><a href="../bg/choose-your-wallet">български</a></li>
+        
+        
+          <li><a href="../ru/choose-your-wallet">Русский</a></li>
+        
+        
+          <li><a href="../uk/choose-your-wallet">Українська</a></li>
+        
+        
+          <li><a href="../ar/choose-your-wallet">العربية</a></li>
+        
+        
+          <li><a href="../fa/choose-your-wallet">فارسی</a></li>
+        
+        
+          <li><a href="../hi/choose-your-wallet">हिन्दी</a></li>
+        
+        
+          <li><a href="../ko/choose-your-wallet">한국의</a></li>
+        
+        
+          <li><a href="../ja/choose-your-wallet">日本語</a></li>
+        
+        
+          <li><a href="../zh_cn/choose-your-wallet">简体中文</a></li>
+        
+        
+          <li><a href="../zh_tw/choose-your-wallet">繁體中文</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+
+  
+<div id="langselect" class="langselect">
+    <label for="select-input" class="center-select">
+        <select id="select-input" class="center-select__input" onchange="window.location=this.value;">
+            
+            <option value="../id/pilih-wallet-anda" >Bahasa Indonesia</option>
+            
+            <option value="../da/vaelg-din-tegnebog" >Dansk</option>
+            
+            <option value="../de/waehlen-sie-ihre-wallet" >Deutsch</option>
+            
+            <option value="choose-your-wallet"  selected="selected">English</option>
+            
+            <option value="../es/elige-tu-monedero" >Español</option>
+            
+            <option value="../fr/choisir-votre-porte-monnaie" >Français</option>
+            
+            <option value="../it/scegli-il-tuo-portafoglio" >Italiano</option>
+            
+            <option value="../hu/valasszon-penztarcat" >Magyar</option>
+            
+            <option value="../nl/kies-uw-portemonnee" >Nederlands</option>
+            
+            <option value="../pl/wybierz-swoj-portfel" >Polski</option>
+            
+            <option value="../pt_br/escolha-sua-carteira" >Português Brasil</option>
+            
+            <option value="../ro/alege-portofelul" >Română</option>
+            
+            <option value="../sl/izberite-denarnico" >Slovenščina</option>
+            
+            <option value="../sr/izaberite-vas-novcanik" >Srpski</option>
+            
+            <option value="../sv/valj-din-planbok" >Svenska</option>
+            
+            <option value="../tr/cuzdaninizi-secin" >Türkçe</option>
+            
+            <option value="../el/choose-your-wallet" >Ελληνικά</option>
+            
+            <option value="../bg/choose-your-wallet" >български</option>
+            
+            <option value="../ru/choose-your-wallet" >Русский</option>
+            
+            <option value="../uk/choose-your-wallet" >Українська</option>
+            
+            <option value="../ar/choose-your-wallet" >العربية</option>
+            
+            <option value="../fa/choose-your-wallet" >فارسی</option>
+            
+            <option value="../hi/choose-your-wallet" >हिन्दी</option>
+            
+            <option value="../ko/choose-your-wallet" >한국의</option>
+            
+            <option value="../ja/choose-your-wallet" >日本語</option>
+            
+            <option value="../zh_cn/choose-your-wallet" >简体中文</option>
+            
+            <option value="../zh_tw/choose-your-wallet" >繁體中文</option>
+            
+        </select>
+        <span class="center-select__text">Language: <span class="is-capital">en</span></span>
+    </label>
+</div>
+
+</div></div>
+
+<div class="body">
+  
+
+<div class="breadcrumbs">
+  <div class="container">
+    
+  </div>
+</div>
+
+  
+
+<div id="content" class="content">
+  <div class="hero">
+  <div class="container hero-container">
+    <h1>Choose your Bitcoin wallet</h1>
+    <p class="summary">Select a wallet to store your bitcoin so you can start transacting on the network.</p>
+    
+
+<div class="row hero-social">
+  <a href="default.htm" onclick="window.open('../../www.facebook.com/sharer/sharer.php@u=' + encodeURIComponent(location.href))" class="hero-social-link" target="_blank">
+    <img src="../img/icons/ico_facebook_bright.svg@1535137558.xml" alt="facebook">
+  </a>
+  <a href="default.htm" onclick="window.open('../../https@twitter.com/share@url=' + encodeURIComponent(location.href))" class="hero-social-link" target="_blank">
+    <img src="../img/icons/ico_twitter_bright.svg@1535137558.xml" alt="twitter">
+  </a>
+</div>
+  </div>
+</div>
+
+
+
+
+<div class="walletmenu" id="walletmenu" style="margin-bottom: ">
+
+  <ul>
+     
+    <li class="js-acc-item wallet-all active is-active" data-platform-selector="all-wallets">
+      <a href="choose-your-wallet.htm">All Wallets</a>
+    </li>
+  
+
+    
+    
+    
+    
+
+    
+    
+    
+    <li class="js-acc-item wallet-desktop" data-platform-selector="desktop">
+      
+        <a class="wallet-platform-link">Desktop</a>
+      
+      
+      <div class="walletmenu-subaccordion">
+        <ul class="walletmenu-os-list ">
+          
+            
+            
+            <li class="js-acc-subitem wallet-linux" data-platform-selector="linux">
+              <a  href="wallets/desktop/linux/default.htm">
+                Linux
+              </a>
+            </li>
+          
+            
+            
+            <li class="js-acc-subitem wallet-mac" data-platform-selector="mac">
+              <a  href="wallets/desktop/mac/default.htm">
+                Mac
+              </a>
+            </li>
+          
+            
+            
+            <li class="js-acc-subitem wallet-windows" data-platform-selector="windows">
+              <a  href="wallets/desktop/windows/default.htm">
+                Windows
+              </a>
+            </li>
+          
+        </ul>
+      </div>
+      
+    </li>
+  
+
+    
+    
+    
+    
+
+    
+    
+    
+    <li class="js-acc-item wallet-hardware" data-platform-selector="hardware">
+      
+      
+        <a href="wallets/hardware/default.htm">Hardware</a>
+      
+      
+    </li>
+  
+
+    
+    
+    
+    
+
+    
+    
+    
+    <li class="js-acc-item wallet-mobile" data-platform-selector="mobile">
+      
+        <a class="wallet-platform-link">Mobile</a>
+      
+      
+      <div class="walletmenu-subaccordion">
+        <ul class="walletmenu-os-list ">
+          
+            
+            
+            <li class="js-acc-subitem wallet-android" data-platform-selector="android">
+              <a  href="wallets/mobile/android/default.htm">
+                Android
+              </a>
+            </li>
+          
+            
+            
+            <li class="js-acc-subitem wallet-ios" data-platform-selector="ios">
+              <a  href="wallets/mobile/ios/default.htm">
+                iOS
+              </a>
+            </li>
+          
+            
+            
+            <li class="js-acc-subitem wallet-windowsphone" data-platform-selector="windowsphone">
+              <a  href="wallets/mobile/windowsphone/default.htm">
+                Windows Phone
+              </a>
+            </li>
+          
+        </ul>
+      </div>
+      
+    </li>
+  
+
+    
+    
+    
+    
+
+    
+    
+    
+    <li class="js-acc-item wallet-web" data-platform-selector="web">
+      
+      
+        <a href="wallets/web/default.htm">Web</a>
+      
+      
+    </li>
+  
+  </ul>
+</div>
+
+<script>
+  var walletMenu = document.querySelector(".walletmenu");
+  var allTabs = document.querySelectorAll("li[data-platform-selector]");
+
+  function highlightActive(elem) {
+    
+    for (var ii = 0; ii < allTabs.length; ii++) {
+      var tab = allTabs[ii];
+      if (tab === elem) {
+        tab.classList.add("is-active");
+        tab.classList.add("active");
+      } else {
+        tab.classList.remove("is-active");
+        tab.classList.remove("active");
+      }
+    }
+  }
+
+  function accordionDesktop() {
+    var acc = document.getElementsByClassName("js-acc-item");
+
+    for (var i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function(event) {
+        if (document.documentElement.clientWidth > 768) {
+          var platformList = document.querySelectorAll("li[data-platform-selector]");
+          var activeItem = event.target.parentNode;
+          var activeOsAccordion = this.querySelector(".walletmenu-subaccordion");
+          
+          highlightActive(this);
+
+          // Add margnin for walletmenu depending on height of submenu
+          if (this.dataset.platformSelector === "mobile" || this.dataset.platformSelector === "desktop") {
+            walletMenu.style.marginBottom = activeOsAccordion.offsetHeight + 'px'; 
+          } else {
+            walletMenu.style.marginBottom ='0px'; 
+          }
+          
+          // Hide not selected list items
+          for (var index = 0; index < acc.length; index++) {
+            if (!(this == acc[index])) {
+              acc[index].classList.remove("is-active");
+            }
+          }
+          
+          var allWallets = document.querySelectorAll("div[data-category]");
+          var selectedPlatform = activeItem.dataset.platformSelector;
+
+          if (selectedPlatform === "all-wallets") {
+            allWallets.forEach(function (wallet) {
+              wallet.classList.remove('is-hidden')
+            });
+          } else if(selectedPlatform === "desktop" || selectedPlatform === "mobile") {
+            var regexp = new RegExp(selectedPlatform, 'i');
+            
+            for (var ii = 0; ii < allWallets.length; ii++) {
+              var walletItem = allWallets[ii];
+              var walletPlatform = walletItem.dataset.platforms;
+              
+              if (regexp.test(walletPlatform)) {
+                walletItem.classList.remove('is-hidden')
+
+                var walletOsLinks = walletItem.querySelectorAll("a[data-link-platform]");
+
+                for (var n = 0; n < walletOsLinks.length; n++) {
+                  var link = walletOsLinks[n];
+
+                  if (link.dataset.linkPlatform !== selectedPlatform) {
+                    link.classList.add("is-hidden")
+                  } else {
+                    link.classList.remove("is-hidden")
+                  }
+                }
+
+              } else {
+                walletItem.classList.add('is-hidden');
+              }
+              
+            }
+          } else {
+            // Hide not relevant wallets
+            document.querySelectorAll('div[data-platforms]').forEach(function (wallet) {
+              wallet.classList.add('is-hidden');
+            });
+
+            // Show not relevant wallets
+            for (var nn = 0; nn < allWallets.length; nn++) {
+              var wallet = allWallets[nn];
+              if (wallet.dataset.category === selectedPlatform) {
+                wallet.classList.remove('is-hidden');
+              }
+            }
+          }
+          
+        }
+      });
+    }
+  }
+  accordionDesktop();
+
+  function makeWalletClickable() {
+    document.addEventListener('DOMContentLoaded', function () {
+      var walletsList = document.querySelectorAll('.allwallets-list-item');
+
+      for (var i = 0; i < walletsList.length; i++) {
+        var wallet = walletsList[i];
+
+        wallet.addEventListener("mouseenter", function () {
+          var walletOsList = this.querySelectorAll('.wallet-list-os-link:not(.is-hidden)');
+
+          if (walletOsList.length === 1) {
+            this.classList.add('mouseenter');
+          }
+        });
+
+        wallet.addEventListener("mouseleave", function () {
+          var walletOsList = this.querySelectorAll('.wallet-list-os-link:not(.is-hidden)');
+
+          if (walletOsList.length === 1) {
+            this.classList.remove('mouseenter');          }
+        });
+
+      }
+
+      walletsList.forEach(function (wallet) {
+        return wallet.addEventListener("click", function () {
+          var walletOsList = this.querySelectorAll('.wallet-list-os-link:not(.is-hidden)');
+
+          if (walletOsList.length === 1) {
+            var walletHref = walletOsList[0].href;
+            window.location = walletHref;
+          }
+        });
+      });
+    });
+  }
+  makeWalletClickable();
+  
+</script>
+
+
+
+<div class="walletmenu-mobile" hidden>
+  
+  <div class="accordion accordion-platform">
+    
+    <div class="accordion-tab accordion-tab-1 js-tab is-expanded">
+      <p class="accordion-label">Select Wallet Type</p>
+      <p class="selected-item selected-platform"></p>
+    </div>
+    <div class="accordion-content platform-accordion-content">
+      
+
+        
+        
+      
+        
+        
+        
+        <div class="accordion-item wallet-desktop">
+          
+            <a class="accordion-link js-platform wallet-platform-link desktop-link" data-platform-name="desktop">Desktop</a>
+          
+        </div>
+      
+
+        
+        
+      
+        
+        
+        
+        <div class="accordion-item wallet-hardware">
+           
+            <a class="accordion-link hardware-link" href="wallets/hardware/default.htm">Hardware</a>
+            
+        </div>
+      
+
+        
+        
+      
+        
+        
+        
+        <div class="accordion-item wallet-mobile">
+          
+            <a class="accordion-link js-platform wallet-platform-link mobile-link" data-platform-name="mobile">Mobile</a>
+          
+        </div>
+      
+
+        
+        
+      
+        
+        
+        
+        <div class="accordion-item wallet-web">
+           
+            <a class="accordion-link web-link" href="wallets/web/default.htm">Web</a>
+            
+        </div>
+      
+    </div>
+  </div>
+    
+
+      
+      
+
+      
+        <div class="accordion accordion-os accordion-desktop" data-os="desktop" hidden>
+          <div class="accordion-tab accordion-tab-2 js-tab">
+            <p class="accordion-label">Select Operating System</p>
+            <p class="selected-item selected-os"></p>
+          </div>
+          <div class="accordion-content">
+
+            
+              
+              
+              <div class="accordion-item wallet-linux">
+                <a class="accordion-link link-wallet-linux" href="wallets/desktop/linux/default.htm">
+                  Linux
+                </a>
+              </div>
+            
+              
+              
+              <div class="accordion-item wallet-mac">
+                <a class="accordion-link link-wallet-mac" href="wallets/desktop/mac/default.htm">
+                  Mac
+                </a>
+              </div>
+            
+              
+              
+              <div class="accordion-item wallet-windows">
+                <a class="accordion-link link-wallet-windows" href="wallets/desktop/windows/default.htm">
+                  Windows
+                </a>
+              </div>
+            
+          </div>
+        </div>
+      
+      
+    
+
+      
+      
+
+      
+      
+    
+
+      
+      
+
+      
+        <div class="accordion accordion-os accordion-mobile" data-os="mobile" hidden>
+          <div class="accordion-tab accordion-tab-2 js-tab">
+            <p class="accordion-label">Select Operating System</p>
+            <p class="selected-item selected-os"></p>
+          </div>
+          <div class="accordion-content">
+
+            
+              
+              
+              <div class="accordion-item wallet-android">
+                <a class="accordion-link link-wallet-android" href="wallets/mobile/android/default.htm">
+                  Android
+                </a>
+              </div>
+            
+              
+              
+              <div class="accordion-item wallet-ios">
+                <a class="accordion-link link-wallet-ios" href="wallets/mobile/ios/default.htm">
+                  iOS
+                </a>
+              </div>
+            
+              
+              
+              <div class="accordion-item wallet-windowsphone">
+                <a class="accordion-link link-wallet-windowsphone" href="wallets/mobile/windowsphone/default.htm">
+                  Windows Phone
+                </a>
+              </div>
+            
+          </div>
+        </div>
+      
+      
+    
+
+      
+      
+
+      
+      
+    
+</div>
+
+
+
+
+<div class="accordion is-hidden-mobile">
+  
+  
+  <div class="accordion-tab accordion-tab-wallet accordion-tab-3 js-tab is-expanded">
+    <p class="accordion-label">Select Wallet</p>
+    <p class="selected-item selected-wallet"></p>
+  </div>
+  <div class="accordion-content accordion-content-wallets">
+    <div class="wallet-list" id="wallets">
+       
+        
+          
+         
+          <div class="wallet-list-item allwallets-list-item" data-category="all-wallets" data-platforms="mobile" data-walletlevel="3">
+            <div class="wallet-list-item-link">
+              <img src="../img/wallet/airbitzwallet.png@1535137558.png" alt="Airbitz Bitcoin Wallet" /> Airbitz
+            </div>
+            <p class="wallet-hint">Select an Operating System</p>
+            <div class="wallet-list-os">
+              
+                
+                  
+                  <a class="wallet-list-os-link" href="wallets/mobile/android/airbitzwallet/default.htm" data-link-platform=mobile>
+                    <span class="wallet-os-ico android-ico"></span>
+                    <span class="wallet-os-ico-dark android-ico-dark" hidden></span>
+                    <span class="wallet-os-ico-bright android-ico-bright" hidden></span>
+                    <p class="wallet-ico-tooltip">android</p>
+                  </a>
+                  
+                
+                  
+                  <a class="wallet-list-os-link" href="wallets/mobile/ios/airbitzwallet/default.htm" data-link-platform=mobile>
+                    <span class="wallet-os-ico ios-ico"></span>
+                    <span class="wallet-os-ico-dark ios-ico-dark" hidden></span>
+                    <span class="wallet-os-ico-bright ios-ico-bright" hidden></span>
+                    <p class="wallet-ico-tooltip">ios</p>
+                  </a>
+                  
+                
+              
+            </div>
+          </div>
+        
+          
+         
+          <div class="wallet-list-item allwallets-list-item" data-category="all-wallets" data-platforms="desktopmobile" data-walletlevel="3">
+            <div class="wallet-list-item-link">
+              <img src="../img/wallet/arcbit.png@1535137558.png" alt="ArcBit" /> ArcBit
+            </div>
+            <p class="wallet-hint">Select an Operating System</p>
+            <div class="wallet-list-os">
+              
+                
+                  
+                  <a class="wallet-list-os-link" href="wallets/desktop/windows/arcbit/default.htm" data-link-platform=desktop>
+                    <span class="wallet-os-ico windows-ico"></span>
+                    <span class="wallet-os-ico-dark windows-ico-dark" hidden></span>
+                    <span class="wallet-os-ico-bright windows-ico-bright" hidden></span>
+                    <p class="wallet-ico-tooltip">windows</p>
+                  </a>
+                  
+                
+                  
+                  <a class="wallet-list-os-link" href="wallets/desktop/mac/arcbit/default.htm" data-link-platform=desktop>
+                    <span class="wallet-os-ico mac-ico"></span>
+                    <span class="wallet-os-ico-dark mac-ico-dark" hidden></span>
+                    <span class="wallet-os-ico-bright mac-ico-bright" hidden></span>
+                    <p class="wallet-ico-tooltip">mac</p>
+                  </a>
+                  
+                
+                  
+                  <a class="wallet-list-os-link" href="wallets/desktop/linux/arcbit/default.htm" data-link-platform=desktop>
+                    <span class="wallet-os-ico linux-ico"></span>
+                    <span class="wallet-os-ico-dark linux-ico-dark" hidden></span>
+                    <span class="wallet-os-ico-bright linux-ico-bright" hidden></span>
+                    <p class="wallet-ico-tooltip">linux</p>
+                  </a>
+                  
+                
+              
+                
+                  
+                  <a class="wallet-list-os-link" href="wallets/mobile/ios/arcbit/default.htm" data-link-platform=mobile>
+                    <span class="wallet-os-ico ios-ico"></span>
+                    <span class="wallet-os-ico-dark ios-ico-dark" hidden></span>
+                    <span class="wallet-os-ico-bright ios-ico-bright" hidden></span>
+                    <p class="wallet-ico-tooltip">ios</p>
+                  </a>
+                  
+                
+                  
+                  <a class="wallet-list-os-link" href="wallets/mobile/android/arcbit/default.htm" data-link-platform=mobile>
+                    <span class="wallet-os-ico android-ico"></span>
+                    <span class="wallet-os-ico-dark android-ico-dark" hidden></span>
+                    <span class="wallet-os-ico-bright android-ico-bright" hidden></span>
+                    <p class="wallet-ico-tooltip">android</p>
+                  </a>
+                  
+                
+              
+            </div>
+          </div>
+        
+          
+         
+          <div class="wallet-list-item allwallets-list-item" data-category="all-wallets" data-platforms="desktop" data-walletlevel="2">
+            <div class="wallet-list-item-link">
+              <img src="../img/wallet/armory.png@1535137558.png" alt="Armory" /> Armory
+            </div>
+            <p class="wallet-hint">Select an Operating System</p>
+            <div class="wallet-list-os">
+              
+                
+                  
+                  <a class="wallet-list-os-link" href="wallets/desktop/windows/armory/default.htm" data-link-platform=desktop>
+                    <span class="wallet-os-ico windows-ico"></span>
+                    <span class="wallet-os-ico-dark windows-ico-dark" hidden></span>
+                    <span class="wallet-os-ico-bright windows-ico-bright" hidden></span>
+                    <p class="wallet-ico-tooltip">windows</p>
+                  </a>
+                  
+                
+                  
+                  <a class="wallet-list-os-link" href="wallets/desktop/mac/armory/default.htm" data-link-platform=desktop>
+                    <span class="wallet-os-ico mac-ico"></span>
+                    <span class="wallet-os-ico-dark mac-ico-dark" hidden></span>
+                    <span class="wallet-os-ico-bright mac-ico-bright" hidden></span>
+                    <p class="wallet-ico-tooltip">mac</p>
+                  </a>
+                  
+                
+                  
+                  <a class="wallet-list-os-link" href="wallets/desktop/linux/armory/default.htm" data-link-platform=desktop>
+                    <span class="wallet-os-ico linux-ico"></span>
+                    <span class="wallet-os-ico-dark linux-ico-dark" hidden></span>
+                    <span class="wallet-os-ico-bright linux-ico-bright" hidden></span>
+                    <p class="wallet-ico-tooltip">linux</p>
+                  </a>
+                  
+                
+              
+            </div>
+          </div>
+        
+          
+         
+          <div class="wallet-list-item allwallets-list-item" data-category="all-wallets" data-platforms="desktop" data-walletlevel="1">
+            <div class="wallet-list-item-link">
+              <img src="../img/wallet/bitcoincore.png@1535137558.png" alt="Bitcoin Core" /> Bitcoin Core
+            </div>
+            <p class="wallet-hint">Select an Operating System</p>
+            <div class="wallet-list-os">
+              
+                
+                  
+                  <a class="wallet-list-os-link" href="wallets/desktop/windows/bitcoincore/default.htm" data-link-platform=desktop>
+                    <span class="wallet-os-ico windows-ico"></span>
+                    <span class="wallet-os-ico-dark windows-ico-dark" hidden></span>
+                    <span class="wallet-os-ico-bright windows-ico-bright" hidden></span>
+                    <p class="wallet-ico-tooltip">windows</p>
+                  </a>
+                  
+                
+                  
+                  <a class="wallet-list-os-link" href="wallets/desktop/mac/bitcoincore/default.htm" data-link-platform=desktop>
+                    <span class="wallet-os-ico mac-ico"></span>
+                    <span class="wallet-os-ico-dark mac-ico-dark" hidden></span>
+                    <span class="wallet-os-ico-bright mac-ico-bright" hidden></span>
+                    <p class="wallet-ico-tooltip">mac</p>
+                  </a>
+                  
+                
+                  
+                  <a class="wallet-list-os-link" href="wallets/desktop/linux/bitcoincore/default.htm" data-link-platform=desktop>
+                    <span class="wallet-os-ico linux-ico"></span>
+                    <span class="wallet-os-ico-dark linux-ico-dark" hidden></span>
+                    <span class="wallet-os-ico-bright linux-ico-bright" hidden></span>
+                    <p class="wallet-ico-tooltip">linux</p>
+                  </a>
+                  
+                
+              
+            </div>
+          </div>
+        
+          
+         
+          <div class="wallet-list-item allwallets-list-item" data-category="all-wallets" data-platforms="desktop" data-walletlevel="1">
+            <div class="wallet-list-item-link">
+              <img src="../img/wallet/bitcoinknots.png@1535137558.png" alt="Bitcoin Knots" /> Bitcoin Knots
+            </div>
+            <p class="wallet-hint">Select an Operating System</p>
+            <div class="wallet-list-os">
+              
+                
+                  
+                  <a class="wallet-list-os-link" href="wallets/desktop/windows/bitcoinknots/default.htm" data-link-platform=desktop>
+                    <span class="wallet-os-ico windows-ico"></span>
+                    <span class="wallet-os-ico-dark windows-ico-dark" hidden></span>
+                    <span class="wallet-os-ico-bright windows-ico-bright" hidden></span>
+                    <p class="wallet-ico-tooltip">windows</p>
+                  </a>
+                  
+                
+                  
+                  <a class="wallet-list-os-link" href="wallets/desktop/mac/bitcoinknots/default.htm" data-link-platform=desktop>
+                    <span class="wallet-os-ico mac-ico"></span>
+                    <span class="wallet-os-ico-dark mac-ico-dark" hidden></span>
+                    <span class="wallet-os-ico-bright mac-ico-bright" hidden></span>
+                    <p class="wallet-ico-tooltip">mac</p>
+                  </a>
+                  
+                
+                  
+                  <a class="wallet-list-os-link" href="wallets/desktop/linux/bitcoinknots/default.htm" data-link-platform=desktop>
+                    <span class="wallet-os-ico linux-ico"></span>
+                    <span class="wallet-os-ico-dark linux-ico-dark" hidden></span>
+                    <span class="wallet-os-ico-bright linux-ico-bright" hidden></span>
+                    <p class="wallet-ico-tooltip">linux</p>
+                  </a>
+                  
+                
+              
+            </div>
+          </div>
+        
+          
+         
+          <div class="wallet-list-item allwallets-list-item" data-category="all-wallets" data-platforms="mobile" data-walletlevel="2">
+            <div class="wallet-list-item-link">
+              <img src="../img/wallet/bitcoinwallet.png@1535137558.png" alt="Bitcoin Wallet" /> Bitcoin Wallet
+            </div>
+            <p class="wallet-hint">Select an Operating System</p>
+            <div class="wallet-list-os">
+              
+                
+                  
+                  <a class="wallet-list-os-link" href="wallets/mobile/android/bitcoinwallet/default.htm" data-link-platform=mobile>
+                    <span class="wallet-os-ico android-ico"></span>
+                    <span class="wallet-os-ico-dark android-ico-dark" hidden></span>
+                    <span class="wallet-os-ico-bright android-ico-bright" hidden></span>
+                    <p class="wallet-ico-tooltip">android</p>
+                  </a>
+                  
+                
+              
+            </div>
+          </div>
+        
+          
+         
+          <div class="wallet-list-item allwallets-list-item" data-category="all-wallets" data-platforms="web" data-walletlevel="3">
+            <div class="wallet-list-item-link">
+              <img src="../img/wallet/bitgo.png@1535137558.png" alt="BitGo" /> BitGo
+            </div>
+            <p class="wallet-hint">Select an Operating System</p>
+            <div class="wallet-list-os">
+              
+                
+                  
+                  <a class="wallet-list-os-link" href="wallets/web/bitgo/default.htm" data-link-platform=web>
+                    <span class="wallet-os-ico web-ico"></span>
+                    <span class="wallet-os-ico-dark web-ico-dark" hidden></span>
+                    <span class="wallet-os-ico-bright web-ico-bright" hidden></span>
+                    <p class="wallet-ico-tooltip">web</p>
+                  </a>
+                  
+                
+              
+            </div>
+          </div>
+        
+          
+         
+          <div class="wallet-list-item allwallets-list-item" data-category="all-wallets" data-platforms="mobiledesktop" data-walletlevel="2">
+            <div class="wallet-list-item-link">
+              <img src="../img/wallet/bither.png@1535137558.png" alt="Bither" /> Bither
+            </div>
+            <p class="wallet-hint">Select an Operating System</p>
+            <div class="wallet-list-os">
+              
+                
+                  
+                  <a class="wallet-list-os-link" href="wallets/mobile/ios/bither/default.htm" data-link-platform=mobile>
+                    <span class="wallet-os-ico ios-ico"></span>
+                    <span class="wallet-os-ico-dark ios-ico-dark" hidden></span>
+                    <span class="wallet-os-ico-bright ios-ico-bright" hidden></span>
+                    <p class="wallet-ico-tooltip">ios</p>
+                  </a>
+                  
+                
+                  
+                  <a class="wallet-list-os-link" href="wallets/mobile/android/bither/default.htm" data-link-platform=mobile>
+                    <span class="wallet-os-ico android-ico"></span>
+                    <span class="wallet-os-ico-dark android-ico-dark" hidden></span>
+                    <span class="wallet-os-ico-bright android-ico-bright" hidden></span>
+                    <p class="wallet-ico-tooltip">android</p>
+                  </a>
+                  
+                
+              
+                
+                  
+                  <a class="wallet-list-os-link" href="wallets/desktop/windows/bither/default.htm" data-link-platform=desktop>
+                    <span class="wallet-os-ico windows-ico"></span>
+                    <span class="wallet-os-ico-dark windows-ico-dark" hidden></span>
+                    <span class="wallet-os-ico-bright windows-ico-bright" hidden></span>
+                    <p class="wallet-ico-tooltip">windows</p>
+                  </a>
+                  
+                
+                  
+                  <a class="wallet-list-os-link" href="wallets/desktop/mac/bither/default.htm" data-link-platform=desktop>
+                    <span class="wallet-os-ico mac-ico"></span>
+                    <span class="wallet-os-ico-dark mac-ico-dark" hidden></span>
+                    <span class="wallet-os-ico-bright mac-ico-bright" hidden></span>
+                    <p class="wallet-ico-tooltip">mac</p>
+                  </a>
+                  
+                
+                  
+                  <a class="wallet-list-os-link" href="wallets/desktop/linux/bither/default.htm" data-link-platform=desktop>
+                    <span class="wallet-os-ico linux-ico"></span>
+                    <span class="wallet-os-ico-dark linux-ico-dark" hidden></span>
+                    <span class="wallet-os-ico-bright linux-ico-bright" hidden></span>
+                    <p class="wallet-ico-tooltip">linux</p>
+                  </a>
+                  
+                
+              
+            </div>
+          </div>
+        
+          
+         
+          <div class="wallet-list-item allwallets-list-item" data-category="all-wallets" data-platforms="mobile" data-walletlevel="2">
+            <div class="wallet-list-item-link">
+              <img src="../img/wallet/brd.png@1535137558.png" alt="BRD" /> BRD
+            </div>
+            <p class="wallet-hint">Select an Operating System</p>
+            <div class="wallet-list-os">
+              
+                
+                  
+                  <a class="wallet-list-os-link" href="wallets/mobile/ios/brd/default.htm" data-link-platform=mobile>
+                    <span class="wallet-os-ico ios-ico"></span>
+                    <span class="wallet-os-ico-dark ios-ico-dark" hidden></span>
+                    <span class="wallet-os-ico-bright ios-ico-bright" hidden></span>
+                    <p class="wallet-ico-tooltip">ios</p>
+                  </a>
+                  
+                
+                  
+                  <a class="wallet-list-os-link" href="wallets/mobile/android/brd/default.htm" data-link-platform=mobile>
+                    <span class="wallet-os-ico android-ico"></span>
+                    <span class="wallet-os-ico-dark android-ico-dark" hidden></span>
+                    <span class="wallet-os-ico-bright android-ico-bright" hidden></span>
+                    <p class="wallet-ico-tooltip">android</p>
+                  </a>
+                  
+                
+              
+            </div>
+          </div>
+        
+          
+         
+          <div class="wallet-list-item allwallets-list-item" data-category="all-wallets" data-platforms="mobileweb" data-walletlevel="3">
+            <div class="wallet-list-item-link">
+              <img src="../img/wallet/coinspace.png@1535137558.png" alt="Coin.Space" /> Coin.Space
+            </div>
+            <p class="wallet-hint">Select an Operating System</p>
+            <div class="wallet-list-os">
+              
+                
+                  
+                  <a class="wallet-list-os-link" href="wallets/mobile/android/coinspace/default.htm" data-link-platform=mobile>
+                    <span class="wallet-os-ico android-ico"></span>
+                    <span class="wallet-os-ico-dark android-ico-dark" hidden></span>
+                    <span class="wallet-os-ico-bright android-ico-bright" hidden></span>
+                    <p class="wallet-ico-tooltip">android</p>
+                  </a>
+                  
+                
+                  
+                  <a class="wallet-list-os-link" href="wallets/mobile/ios/coinspace/default.htm" data-link-platform=mobile>
+                    <span class="wallet-os-ico ios-ico"></span>
+                    <span class="wallet-os-ico-dark ios-ico-dark" hidden></span>
+                    <span class="wallet-os-ico-bright ios-ico-bright" hidden></span>
+                    <p class="wallet-ico-tooltip">ios</p>
+                  </a>
+                  
+                
+                  
+                  <a class="wallet-list-os-link" href="wallets/mobile/windowsphone/coinspace/default.htm" data-link-platform=mobile>
+                    <span class="wallet-os-ico windowsphone-ico"></span>
+                    <span class="wallet-os-ico-dark windowsphone-ico-dark" hidden></span>
+                    <span class="wallet-os-ico-bright windowsphone-ico-bright" hidden></span>
+                    <p class="wallet-ico-tooltip">windowsphone</p>
+                  </a>
+                  
+                
+              
+                
+                  
+                  <a class="wallet-list-os-link" href="wallets/web/coinspace/default.htm" data-link-platform=web>
+                    <span class="wallet-os-ico web-ico"></span>
+                    <span class="wallet-os-ico-dark web-ico-dark" hidden></span>
+                    <span class="wallet-os-ico-bright web-ico-bright" hidden></span>
+                    <p class="wallet-ico-tooltip">web</p>
+                  </a>
+                  
+                
+              
+            </div>
+          </div>
+        
+          
+         
+          <div class="wallet-list-item allwallets-list-item" data-category="all-wallets" data-platforms="hardware" data-walletlevel="2">
+            <div class="wallet-list-item-link">
+              <img src="../img/wallet/digitalbitbox.png@1535137558.png" alt="Digital Bitbox" /> Digital Bitbox
+            </div>
+            <p class="wallet-hint">Select an Operating System</p>
+            <div class="wallet-list-os">
+              
+                
+                  
+                  <a class="wallet-list-os-link" href="wallets/hardware/digitalbitbox/default.htm" data-link-platform=hardware>
+                    <span class="wallet-os-ico hardware-ico"></span>
+                    <span class="wallet-os-ico-dark hardware-ico-dark" hidden></span>
+                    <span class="wallet-os-ico-bright hardware-ico-bright" hidden></span>
+                    <p class="wallet-ico-tooltip">hardware</p>
+                  </a>
+                  
+                
+              
+            </div>
+          </div>
+        
+          
+         
+          <div class="wallet-list-item allwallets-list-item" data-category="all-wallets" data-platforms="mobile" data-walletlevel="3">
+            <div class="wallet-list-item-link">
+              <img src="../img/wallet/edgewallet.png@1535137558.png" alt="Edge Mobile Wallet" /> Edge
+            </div>
+            <p class="wallet-hint">Select an Operating System</p>
+            <div class="wallet-list-os">
+              
+                
+                  
+                  <a class="wallet-list-os-link" href="wallets/mobile/android/edgewallet/default.htm" data-link-platform=mobile>
+                    <span class="wallet-os-ico android-ico"></span>
+                    <span class="wallet-os-ico-dark android-ico-dark" hidden></span>
+                    <span class="wallet-os-ico-bright android-ico-bright" hidden></span>
+                    <p class="wallet-ico-tooltip">android</p>
+                  </a>
+                  
+                
+                  
+                  <a class="wallet-list-os-link" href="wallets/mobile/ios/edgewallet/default.htm" data-link-platform=mobile>
+                    <span class="wallet-os-ico ios-ico"></span>
+                    <span class="wallet-os-ico-dark ios-ico-dark" hidden></span>
+                    <span class="wallet-os-ico-bright ios-ico-bright" hidden></span>
+                    <p class="wallet-ico-tooltip">ios</p>
+                  </a>
+                  
+                
+              
+            </div>
+          </div>
+        
+          
+         
+          <div class="wallet-list-item allwallets-list-item" data-category="all-wallets" data-platforms="desktopmobile" data-walletlevel="2">
+            <div class="wallet-list-item-link">
+              <img src="../img/wallet/electrum.png@1535137558.png" alt="Electrum" /> Electrum
+            </div>
+            <p class="wallet-hint">Select an Operating System</p>
+            <div class="wallet-list-os">
+              
+                
+                  
+                  <a class="wallet-list-os-link" href="wallets/desktop/windows/electrum/default.htm" data-link-platform=desktop>
+                    <span class="wallet-os-ico windows-ico"></span>
+                    <span class="wallet-os-ico-dark windows-ico-dark" hidden></span>
+                    <span class="wallet-os-ico-bright windows-ico-bright" hidden></span>
+                    <p class="wallet-ico-tooltip">windows</p>
+                  </a>
+                  
+                
+                  
+                  <a class="wallet-list-os-link" href="wallets/desktop/mac/electrum/default.htm" data-link-platform=desktop>
+                    <span class="wallet-os-ico mac-ico"></span>
+                    <span class="wallet-os-ico-dark mac-ico-dark" hidden></span>
+                    <span class="wallet-os-ico-bright mac-ico-bright" hidden></span>
+                    <p class="wallet-ico-tooltip">mac</p>
+                  </a>
+                  
+                
+                  
+                  <a class="wallet-list-os-link" href="wallets/desktop/linux/electrum/default.htm" data-link-platform=desktop>
+                    <span class="wallet-os-ico linux-ico"></span>
+                    <span class="wallet-os-ico-dark linux-ico-dark" hidden></span>
+                    <span class="wallet-os-ico-bright linux-ico-bright" hidden></span>
+                    <p class="wallet-ico-tooltip">linux</p>
+                  </a>
+                  
+                
+              
+                
+                  
+                  <a class="wallet-list-os-link" href="wallets/mobile/android/electrum/default.htm" data-link-platform=mobile>
+                    <span class="wallet-os-ico android-ico"></span>
+                    <span class="wallet-os-ico-dark android-ico-dark" hidden></span>
+                    <span class="wallet-os-ico-bright android-ico-bright" hidden></span>
+                    <p class="wallet-ico-tooltip">android</p>
+                  </a>
+                  
+                
+              
+            </div>
+          </div>
+        
+          
+         
+          <div class="wallet-list-item allwallets-list-item" data-category="all-wallets" data-platforms="mobiledesktop" data-walletlevel="3">
+            <div class="wallet-list-item-link">
+              <img src="../img/wallet/greenaddress.png@1535137558.png" alt="GreenAddress" /> Green Address
+            </div>
+            <p class="wallet-hint">Select an Operating System</p>
+            <div class="wallet-list-os">
+              
+                
+                  
+                  <a class="wallet-list-os-link" href="wallets/mobile/ios/greenaddress/default.htm" data-link-platform=mobile>
+                    <span class="wallet-os-ico ios-ico"></span>
+                    <span class="wallet-os-ico-dark ios-ico-dark" hidden></span>
+                    <span class="wallet-os-ico-bright ios-ico-bright" hidden></span>
+                    <p class="wallet-ico-tooltip">ios</p>
+                  </a>
+                  
+                
+                  
+                  <a class="wallet-list-os-link" href="wallets/mobile/android/greenaddress/default.htm" data-link-platform=mobile>
+                    <span class="wallet-os-ico android-ico"></span>
+                    <span class="wallet-os-ico-dark android-ico-dark" hidden></span>
+                    <span class="wallet-os-ico-bright android-ico-bright" hidden></span>
+                    <p class="wallet-ico-tooltip">android</p>
+                  </a>
+                  
+                
+              
+                
+                  
+                  <a class="wallet-list-os-link" href="wallets/desktop/windows/greenaddress/default.htm" data-link-platform=desktop>
+                    <span class="wallet-os-ico windows-ico"></span>
+                    <span class="wallet-os-ico-dark windows-ico-dark" hidden></span>
+                    <span class="wallet-os-ico-bright windows-ico-bright" hidden></span>
+                    <p class="wallet-ico-tooltip">windows</p>
+                  </a>
+                  
+                
+                  
+                  <a class="wallet-list-os-link" href="wallets/desktop/mac/greenaddress/default.htm" data-link-platform=desktop>
+                    <span class="wallet-os-ico mac-ico"></span>
+                    <span class="wallet-os-ico-dark mac-ico-dark" hidden></span>
+                    <span class="wallet-os-ico-bright mac-ico-bright" hidden></span>
+                    <p class="wallet-ico-tooltip">mac</p>
+                  </a>
+                  
+                
+                  
+                  <a class="wallet-list-os-link" href="wallets/desktop/linux/greenaddress/default.htm" data-link-platform=desktop>
+                    <span class="wallet-os-ico linux-ico"></span>
+                    <span class="wallet-os-ico-dark linux-ico-dark" hidden></span>
+                    <span class="wallet-os-ico-bright linux-ico-bright" hidden></span>
+                    <p class="wallet-ico-tooltip">linux</p>
+                  </a>
+                  
+                
+              
+            </div>
+          </div>
+        
+          
+         
+          <div class="wallet-list-item allwallets-list-item" data-category="all-wallets" data-platforms="mobile" data-walletlevel="2">
+            <div class="wallet-list-item-link">
+              <img src="../img/wallet/greenbits.png@1535137558.png" alt="GreenBits" /> GreenBits
+            </div>
+            <p class="wallet-hint">Select an Operating System</p>
+            <div class="wallet-list-os">
+              
+                
+                  
+                  <a class="wallet-list-os-link" href="wallets/mobile/android/greenbits/default.htm" data-link-platform=mobile>
+                    <span class="wallet-os-ico android-ico"></span>
+                    <span class="wallet-os-ico-dark android-ico-dark" hidden></span>
+                    <span class="wallet-os-ico-bright android-ico-bright" hidden></span>
+                    <p class="wallet-ico-tooltip">android</p>
+                  </a>
+                  
+                
+              
+            </div>
+          </div>
+        
+          
+         
+          <div class="wallet-list-item allwallets-list-item" data-category="all-wallets" data-platforms="hardware" data-walletlevel="2">
+            <div class="wallet-list-item-link">
+              <img src="../img/wallet/keepkey.png@1535137558.png" alt="KeepKey" /> KeepKey
+            </div>
+            <p class="wallet-hint">Select an Operating System</p>
+            <div class="wallet-list-os">
+              
+                
+                  
+                  <a class="wallet-list-os-link" href="wallets/hardware/keepkey/default.htm" data-link-platform=hardware>
+                    <span class="wallet-os-ico hardware-ico"></span>
+                    <span class="wallet-os-ico-dark hardware-ico-dark" hidden></span>
+                    <span class="wallet-os-ico-bright hardware-ico-bright" hidden></span>
+                    <p class="wallet-ico-tooltip">hardware</p>
+                  </a>
+                  
+                
+              
+            </div>
+          </div>
+        
+          
+         
+          <div class="wallet-list-item allwallets-list-item" data-category="all-wallets" data-platforms="hardware" data-walletlevel="2">
+            <div class="wallet-list-item-link">
+              <img src="../img/wallet/ledgernanos.png@1535137558.png" alt="Ledger Nano S" /> Ledger Nano S
+            </div>
+            <p class="wallet-hint">Select an Operating System</p>
+            <div class="wallet-list-os">
+              
+                
+                  
+                  <a class="wallet-list-os-link" href="wallets/hardware/ledgernanos/default.htm" data-link-platform=hardware>
+                    <span class="wallet-os-ico hardware-ico"></span>
+                    <span class="wallet-os-ico-dark hardware-ico-dark" hidden></span>
+                    <span class="wallet-os-ico-bright hardware-ico-bright" hidden></span>
+                    <p class="wallet-ico-tooltip">hardware</p>
+                  </a>
+                  
+                
+              
+            </div>
+          </div>
+        
+          
+         
+          <div class="wallet-list-item allwallets-list-item" data-category="all-wallets" data-platforms="desktop" data-walletlevel="2">
+            <div class="wallet-list-item-link">
+              <img src="../img/wallet/msigna.png@1535137558.png" alt="mSIGNA" /> mSIGNA
+            </div>
+            <p class="wallet-hint">Select an Operating System</p>
+            <div class="wallet-list-os">
+              
+                
+                  
+                  <a class="wallet-list-os-link" href="wallets/desktop/windows/msigna/default.htm" data-link-platform=desktop>
+                    <span class="wallet-os-ico windows-ico"></span>
+                    <span class="wallet-os-ico-dark windows-ico-dark" hidden></span>
+                    <span class="wallet-os-ico-bright windows-ico-bright" hidden></span>
+                    <p class="wallet-ico-tooltip">windows</p>
+                  </a>
+                  
+                
+                  
+                  <a class="wallet-list-os-link" href="wallets/desktop/mac/msigna/default.htm" data-link-platform=desktop>
+                    <span class="wallet-os-ico mac-ico"></span>
+                    <span class="wallet-os-ico-dark mac-ico-dark" hidden></span>
+                    <span class="wallet-os-ico-bright mac-ico-bright" hidden></span>
+                    <p class="wallet-ico-tooltip">mac</p>
+                  </a>
+                  
+                
+                  
+                  <a class="wallet-list-os-link" href="wallets/desktop/linux/msigna/default.htm" data-link-platform=desktop>
+                    <span class="wallet-os-ico linux-ico"></span>
+                    <span class="wallet-os-ico-dark linux-ico-dark" hidden></span>
+                    <span class="wallet-os-ico-bright linux-ico-bright" hidden></span>
+                    <p class="wallet-ico-tooltip">linux</p>
+                  </a>
+                  
+                
+              
+            </div>
+          </div>
+        
+          
+         
+          <div class="wallet-list-item allwallets-list-item" data-category="all-wallets" data-platforms="mobile" data-walletlevel="3">
+            <div class="wallet-list-item-link">
+              <img src="../img/wallet/mycelium.png@1535137558.png" alt="Mycelium" /> Mycelium
+            </div>
+            <p class="wallet-hint">Select an Operating System</p>
+            <div class="wallet-list-os">
+              
+                
+                  
+                  <a class="wallet-list-os-link" href="wallets/mobile/android/mycelium/default.htm" data-link-platform=mobile>
+                    <span class="wallet-os-ico android-ico"></span>
+                    <span class="wallet-os-ico-dark android-ico-dark" hidden></span>
+                    <span class="wallet-os-ico-bright android-ico-bright" hidden></span>
+                    <p class="wallet-ico-tooltip">android</p>
+                  </a>
+                  
+                
+              
+            </div>
+          </div>
+        
+          
+         
+          <div class="wallet-list-item allwallets-list-item" data-category="all-wallets" data-platforms="mobile" data-walletlevel="2">
+            <div class="wallet-list-item-link">
+              <img src="../img/wallet/simplebitcoinwallet.png@1535137558.png" alt="Simple Bitcoin Wallet" /> Simple Bitcoin
+            </div>
+            <p class="wallet-hint">Select an Operating System</p>
+            <div class="wallet-list-os">
+              
+                
+                  
+                  <a class="wallet-list-os-link" href="wallets/mobile/android/simplebitcoinwallet/default.htm" data-link-platform=mobile>
+                    <span class="wallet-os-ico android-ico"></span>
+                    <span class="wallet-os-ico-dark android-ico-dark" hidden></span>
+                    <span class="wallet-os-ico-bright android-ico-bright" hidden></span>
+                    <p class="wallet-ico-tooltip">android</p>
+                  </a>
+                  
+                
+              
+            </div>
+          </div>
+        
+          
+         
+          <div class="wallet-list-item allwallets-list-item" data-category="all-wallets" data-platforms="hardware" data-walletlevel="2">
+            <div class="wallet-list-item-link">
+              <img src="../img/wallet/trezor.png@1535137558.png" alt="Trezor" /> Trezor
+            </div>
+            <p class="wallet-hint">Select an Operating System</p>
+            <div class="wallet-list-os">
+              
+                
+                  
+                  <a class="wallet-list-os-link" href="wallets/hardware/trezor/default.htm" data-link-platform=hardware>
+                    <span class="wallet-os-ico hardware-ico"></span>
+                    <span class="wallet-os-ico-dark hardware-ico-dark" hidden></span>
+                    <span class="wallet-os-ico-bright hardware-ico-bright" hidden></span>
+                    <p class="wallet-ico-tooltip">hardware</p>
+                  </a>
+                  
+                
+              
+            </div>
+          </div>
+        
+      
+      
+    </div>
+  </div>
+</div>
+<script type="text/javascript" charset="utf-8">
+  walletRotate();
+</script>
+
+
+<div class="container">
+  <div class="walletsdisclaimer">
+    <h2 id="educate-yourself">Take time to educate yourself</h2>
+    <p>
+      Bitcoin is different from what you know and use every day. Before you start using Bitcoin for any serious transaction, be sure to read <a href="you-need-to-know.htm"><b>what you need to know</b></a> and take appropriate steps to <a href="secure-your-wallet"><b>secure your wallet</b></a>. Always remember that it is your responsibility to choose your wallet carefully and adopt good practices in order to protect your money.
+    </p>
+  </div>
+</div>
+
+
+
+
+</div>
+
+  <div class="footer">
+    <div class="container">
+       
+
+<a class="logo-footer" href="default.htm">
+  <img src="../img/icons/logo-footer.svg@1535137558.xml" alt="Bitcoin">
+</a> 
+       
+
+<div class="row footer-row">
+  <div class="donate">
+    <div class="row donate-row">
+      <div>
+        <span class="footer-title">Support Bitcoin.org:</span>
+        <a onclick="openDonationModal()" class="donate-btn btn-bright">Donate</a>
+        <p class="donate-text">Bitcoin.org is community supported.
+          <a class="donate-link" href="default.htm" target="_blank">3FkenCiXpSLqD8L79intRNXUgjRoH9sjXa</a>
+        </p>
+      </div>
+      <div class="donate-qrcode">
+        <img src="../img/footer/qr.png@1535137558.png" alt="QR code">
+      </div>
+    </div>
+  </div>
+  
+  <div class="row footermenu">
+    <div class="footermenu-item footermenu-introduction">
+      <p class="footer-title">Introduction:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="bitcoin-for-individuals.htm">Individuals</a>
+        </li>
+        <li>
+          <a href="bitcoin-for-businesses.htm">Businesses</a>
+        </li>
+        <li>
+          <a href="bitcoin-for-developers.htm">Developers</a>
+        </li>
+        <li>
+          <a href="getting-started.htm">Getting started</a>
+        </li>
+        <li>
+          <a href="how-it-works.htm">How it works</a>
+        </li>
+        <li>
+          <a href="you-need-to-know.htm">You need to know</a>
+        </li>
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-resources">
+      <p class="footer-title">Resources:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="resources.htm">Resources</a>
+        
+        <li>
+          <a href="exchanges.htm">Exchanges</a>
+        </li>
+        
+        <li>
+          <a href="community.htm">Community</a>
+        </li>
+        <li>
+          <a href="vocabulary.htm">Vocabulary
+          </a>
+        </li>
+        <li>
+          <a href="events.htm">Events</a>
+        </li>
+        
+        <li>
+          <a href="bitcoin-core/default.htm">Bitcoin Core</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-participate">
+      <p class="footer-title">Participate:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="support-bitcoin.htm">Support Bitcoin</a>
+        
+        <li>
+          <a href="buy.htm">Buy Bitcoin</a>
+        </li>
+        
+        
+        <li>
+          <a href="full-node.htm">Running a full node</a>
+        </li>
+        
+        <li>
+          <a href="development.htm">Development</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footermenu-item footermenu-other">
+      <p class="footer-title">Other:</p>
+      
+      <a href="scams.htm">Avoid Scams</a>
+      
+      <a href="legal.htm">Legal</a>
+      
+      <a href="privacy.htm">Privacy Policy</a>
+      
+      <a href="press.htm">Press</a>
+      <a href="about-us.htm">About bitcoin.org</a>
+      <a href="blog.htm">Blog</a>
+    </div>
+  </div>
+</div>
+ 
+       
+
+<div class="footersponsor">
+  <!--<div><span>A community website sponsored by</span> <a href="https://bitcoinfoundation.org/"><img src="/img/brand/bitcoinfoundation.png?1535137558" alt="Bitcoin Foundation"></a></div>-->
+</div>
+
+    </div>
+    
+
+<div class="footer-bottom">
+  <div class="container">
+    <div class="row footer-bottom-row">
+      <div class="footerlicense">© Bitcoin Project 2009-2018 Released under the <a href="../../opensource.org/licenses/mit-license.php" target="_blank">MIT license</a></div>
+      <div class="row footer-social">
+        <a href="default.htm" onclick="window.open('../../www.facebook.com/sharer/sharer.php@u=' + encodeURIComponent(location.href))" class="footer-social-link" target="_blank">
+          <img src="../img/icons/ico_facebook_dark.svg@1535137558.xml" alt="facebook" class="footer-social-img">
+        </a>
+        <a href="default.htm" onclick="window.open('../../https@twitter.com/share@url=' + encodeURIComponent(location.href))" class="footer-social-link" target="_blank">
+          <img src="../img/icons/ico_twitter_dark.svg@1535137558.xml" alt="twitter" class="footer-social-img">
+        </a>
+      </div>
+      <div class="row footer-status-block">
+        <a href="alerts.htm" class="statusmenu">Network Status</a>
+        
+<ul class="lang is-expand">
+  <li><a>English</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="../id/pilih-wallet-anda">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="../da/vaelg-din-tegnebog">Dansk</a></li>
+        
+        
+          <li><a href="../de/waehlen-sie-ihre-wallet">Deutsch</a></li>
+        
+        
+          <li><a href="choose-your-wallet.htm" class="active">English</a></li>
+        
+        
+          <li><a href="../es/elige-tu-monedero">Español</a></li>
+        
+        
+          <li><a href="../fr/choisir-votre-porte-monnaie">Français</a></li>
+        
+        
+          <li><a href="../it/scegli-il-tuo-portafoglio">Italiano</a></li>
+        
+        
+          <li><a href="../hu/valasszon-penztarcat">Magyar</a></li>
+        
+        
+          <li><a href="../nl/kies-uw-portemonnee">Nederlands</a></li>
+        
+        
+          <li><a href="../pl/wybierz-swoj-portfel">Polski</a></li>
+        
+        
+          <li><a href="../pt_br/escolha-sua-carteira">Português Brasil</a></li>
+        
+        
+          <li><a href="../ro/alege-portofelul">Română</a></li>
+        
+        
+          <li><a href="../sl/izberite-denarnico">Slovenščina</a></li>
+        
+        
+          <li><a href="../sr/izaberite-vas-novcanik">Srpski</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="../sv/valj-din-planbok">Svenska</a></li>
+        
+        
+          <li><a href="../tr/cuzdaninizi-secin">Türkçe</a></li>
+        
+        
+          <li><a href="../el/choose-your-wallet">Ελληνικά</a></li>
+        
+        
+          <li><a href="../bg/choose-your-wallet">български</a></li>
+        
+        
+          <li><a href="../ru/choose-your-wallet">Русский</a></li>
+        
+        
+          <li><a href="../uk/choose-your-wallet">Українська</a></li>
+        
+        
+          <li><a href="../ar/choose-your-wallet">العربية</a></li>
+        
+        
+          <li><a href="../fa/choose-your-wallet">فارسی</a></li>
+        
+        
+          <li><a href="../hi/choose-your-wallet">हिन्दी</a></li>
+        
+        
+          <li><a href="../ko/choose-your-wallet">한국의</a></li>
+        
+        
+          <li><a href="../ja/choose-your-wallet">日本語</a></li>
+        
+        
+          <li><a href="../zh_cn/choose-your-wallet">简体中文</a></li>
+        
+        
+          <li><a href="../zh_tw/choose-your-wallet">繁體中文</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+ 
+        <div id="footer-langselect" class="footer-langselect langselect">
+          <label for="select-input-footer" class="center-select">
+            <select class="center-select__input" onchange="window.location=this.value; ">
+              
+              <option value="../id/pilih-wallet-anda" >Bahasa Indonesia</option>
+              
+              <option value="../da/vaelg-din-tegnebog" >Dansk</option>
+              
+              <option value="../de/waehlen-sie-ihre-wallet" >Deutsch</option>
+              
+              <option value="choose-your-wallet"  selected="selected">English</option>
+              
+              <option value="../es/elige-tu-monedero" >Español</option>
+              
+              <option value="../fr/choisir-votre-porte-monnaie" >Français</option>
+              
+              <option value="../it/scegli-il-tuo-portafoglio" >Italiano</option>
+              
+              <option value="../hu/valasszon-penztarcat" >Magyar</option>
+              
+              <option value="../nl/kies-uw-portemonnee" >Nederlands</option>
+              
+              <option value="../pl/wybierz-swoj-portfel" >Polski</option>
+              
+              <option value="../pt_br/escolha-sua-carteira" >Português Brasil</option>
+              
+              <option value="../ro/alege-portofelul" >Română</option>
+              
+              <option value="../sl/izberite-denarnico" >Slovenščina</option>
+              
+              <option value="../sr/izaberite-vas-novcanik" >Srpski</option>
+              
+              <option value="../sv/valj-din-planbok" >Svenska</option>
+              
+              <option value="../tr/cuzdaninizi-secin" >Türkçe</option>
+              
+              <option value="../el/choose-your-wallet" >Ελληνικά</option>
+              
+              <option value="../bg/choose-your-wallet" >български</option>
+              
+              <option value="../ru/choose-your-wallet" >Русский</option>
+              
+              <option value="../uk/choose-your-wallet" >Українська</option>
+              
+              <option value="../ar/choose-your-wallet" >العربية</option>
+              
+              <option value="../fa/choose-your-wallet" >فارسی</option>
+              
+              <option value="../hi/choose-your-wallet" >हिन्दी</option>
+              
+              <option value="../ko/choose-your-wallet" >한국의</option>
+              
+              <option value="../ja/choose-your-wallet" >日本語</option>
+              
+              <option value="../zh_cn/choose-your-wallet" >简体中文</option>
+              
+              <option value="../zh_tw/choose-your-wallet" >繁體中文</option>
+              
+            </select>
+            <span class="center-select__text">en</span>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+
+
+<script type="text/javascript">
+  fallbackSVG();
+  addAnchorLinks();
+  trackOutgoingLinks();
+</script>
+
+
+
+  <script>walletMenuAccordion();</script>
+<script>showNextMobileAccordion();</script>
+
+
+
+
+
+</body>
+
+</html>

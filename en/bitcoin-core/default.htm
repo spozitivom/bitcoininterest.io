@@ -1,0 +1,750 @@
+<!DOCTYPE HTML><!-- saved from url=(0046)http://bitcoin.org/en/bitcoin-core/default.htm --><meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+
+<html lang="en">
+
+
+
+<head>
+
+
+<link rel="stylesheet" href="../../css/jquery-ui.min.css">
+
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta property="og:image" content="https://bitcoin.org/img/icons/opengraph.png?1535137558" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Bitcoin Core</title>
+
+<link rel="stylesheet" href="../../css/font-awesome-4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../../css/main.css@1535137558.css">
+<!--[if lt IE 8]><link rel="stylesheet" href="../../css/ie.css"><script type="text/javascript" src="../../js/ie.js"></script><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" href="../../css/ie8.css"><![endif]-->
+
+
+<script type="text/javascript" src="../../js/base.js@1535137558.js"></script>
+<script type="text/javascript" src="../../js/main.js@1535137558.js"></script>
+<script src="../../js/jquery/jquery-1.11.2.min.js"></script>
+<script src="../../js/jquery/jquery.qrcode.min.js"></script>
+<link rel="shortcut icon" href="../../favicon.png@1535137558.png">
+<link rel="apple-touch-icon-precomposed" href="../../img/icons/logo_ios.png@1535137558.png"/>
+<script>
+    window.cookieconsent_options = {
+        theme: 'light-floating'
+    }
+</script>
+<script type="text/javascript" src="../../js/cookieconsent/cookieconsent.js@1535137558.js"></script>
+<script>
+if( navigator.doNotTrack != "yes" && navigator.doNotTrack != "1" && window.doNotTrack != "1" && navigator.msDoNotTrack != "1" ){
+	var script = document.createElement('script');
+	script.src = '../../js/analytics.js'
+	document.getElementsByTagName("head")[0].appendChild(script);
+}
+</script>
+
+
+
+
+
+  <script src="../../js/jquery/jquery-1.11.2.min.js"></script>
+  <script src="../../js/jquery/jquery-ui.min.js"></script>
+
+
+</head>
+
+<body>
+
+
+<div id="detectmobile" class="detectmobile"></div>
+
+
+
+
+
+
+
+
+
+
+<div class="head"><div>
+  
+
+<a id="menumobile" class="menumobile" onclick="mobileMenuShow(event);" ontouchstart="mobileMenuShow(event);"></a>
+
+  
+    
+
+<a class="logo" href="default.htm"><img src="../../img/bitcoin-core/bitcoin-core.svg@1535137558.xml" alt="Bitcoin"></a>
+
+    
+
+<ul id="menusimple" class="menusimple menucore" onclick="mobileMenuHover(event);" ontouchstart="mobileMenuHover(event);">
+  <li><a class="is-expand">Features</a>
+    <ul>
+      <li><a href="features/default.htm">Overview</a></li>
+      <li><a href="features/validation">Validation</a></li>
+      <li><a href="features/privacy">Privacy</a></li>
+      <li><a href="features/requirements">Requirements</a></li>
+      <li><a href="features/user-interface">User Interface</a></li>
+      <li><a href="features/network-support">Network Support</a></li>
+    </ul>
+  </li>
+  <li><a href="help">Get Help</a></li>
+  <li><a class="is-expand">Contribute</a>
+    <ul>
+      <li><a href="contribute/issues">Bug reports</a></li>
+      <li><a href="../development.htm">Code</a></li>
+      <li><a href="contribute/documentation">Documentation</a></li>
+      <li><a href="contribute/translations">Translations</a></li>
+      <li><a href="contribute/support">Tech Support</a></li>
+    </ul>
+  </li>
+  <li><a href="../version-history">News</a></li>
+  <li><a href="../download">Download</a></li>
+</ul>
+
+  
+    
+<ul class="lang is-expand">
+  <li><a>English</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="../../id/default.htm">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="../../da/default.htm">Dansk</a></li>
+        
+        
+          <li><a href="../../de/default.htm">Deutsch</a></li>
+        
+        
+          <li><a href="../default.htm" class="active">English</a></li>
+        
+        
+          <li><a href="../../es/default.htm">Español</a></li>
+        
+        
+          <li><a href="../../fr/default.htm">Français</a></li>
+        
+        
+          <li><a href="../../it/default.htm">Italiano</a></li>
+        
+        
+          <li><a href="../../hu/default.htm">Magyar</a></li>
+        
+        
+          <li><a href="../../nl/default.htm">Nederlands</a></li>
+        
+        
+          <li><a href="../../pl/default.htm">Polski</a></li>
+        
+        
+          <li><a href="../../pt_br/default.htm">Português Brasil</a></li>
+        
+        
+          <li><a href="../../ro/default.htm">Română</a></li>
+        
+        
+          <li><a href="../../sl/default.htm">Slovenščina</a></li>
+        
+        
+          <li><a href="../../sr/default.htm">Srpski</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="../../sv/default.htm">Svenska</a></li>
+        
+        
+          <li><a href="../../tr/default.htm">Türkçe</a></li>
+        
+        
+          <li><a href="../../el/default.htm">Ελληνικά</a></li>
+        
+        
+          <li><a href="../../bg/default.htm">български</a></li>
+        
+        
+          <li><a href="../../ru/default.htm">Русский</a></li>
+        
+        
+          <li><a href="../../uk/default.htm">Українська</a></li>
+        
+        
+          <li><a href="../../ar/default.htm">العربية</a></li>
+        
+        
+          <li><a href="../../fa/default.htm">فارسی</a></li>
+        
+        
+          <li><a href="../../hi/default.htm">हिन्दी</a></li>
+        
+        
+          <li><a href="../../ko/default.htm">한국의</a></li>
+        
+        
+          <li><a href="../../ja/default.htm">日本語</a></li>
+        
+        
+          <li><a href="../../zh_cn/default.htm">简体中文</a></li>
+        
+        
+          <li><a href="../../zh_tw/default.htm">繁體中文</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+
+    
+<div id="langselect" class="langselect">
+    <label for="select-input" class="center-select">
+        <select id="select-input" class="center-select__input" onchange="window.location=this.value;">
+            
+            <option value="../../id/default.htm" >Bahasa Indonesia</option>
+            
+            <option value="../../da/default.htm" >Dansk</option>
+            
+            <option value="../../de/default.htm" >Deutsch</option>
+            
+            <option value="../default.htm"  selected="selected">English</option>
+            
+            <option value="../../es/default.htm" >Español</option>
+            
+            <option value="../../fr/default.htm" >Français</option>
+            
+            <option value="../../it/default.htm" >Italiano</option>
+            
+            <option value="../../hu/default.htm" >Magyar</option>
+            
+            <option value="../../nl/default.htm" >Nederlands</option>
+            
+            <option value="../../pl/default.htm" >Polski</option>
+            
+            <option value="../../pt_br/default.htm" >Português Brasil</option>
+            
+            <option value="../../ro/default.htm" >Română</option>
+            
+            <option value="../../sl/default.htm" >Slovenščina</option>
+            
+            <option value="../../sr/default.htm" >Srpski</option>
+            
+            <option value="../../sv/default.htm" >Svenska</option>
+            
+            <option value="../../tr/default.htm" >Türkçe</option>
+            
+            <option value="../../el/default.htm" >Ελληνικά</option>
+            
+            <option value="../../bg/default.htm" >български</option>
+            
+            <option value="../../ru/default.htm" >Русский</option>
+            
+            <option value="../../uk/default.htm" >Українська</option>
+            
+            <option value="../../ar/default.htm" >العربية</option>
+            
+            <option value="../../fa/default.htm" >فارسی</option>
+            
+            <option value="../../hi/default.htm" >हिन्दी</option>
+            
+            <option value="../../ko/default.htm" >한국의</option>
+            
+            <option value="../../ja/default.htm" >日本語</option>
+            
+            <option value="../../zh_cn/default.htm" >简体中文</option>
+            
+            <option value="../../zh_tw/default.htm" >繁體中文</option>
+            
+        </select>
+        <span class="center-select__text">Language: <span class="is-capital">en</span></span>
+    </label>
+</div>
+
+</div></div>
+
+<div class="body">
+  
+    
+
+<div class="breadcrumbs">
+  <div class="container">
+      
+    <a href="../default.htm">Bitcoin</a>
+     &gt;    Bitcoin Core   
+  </div>
+</div>
+
+  
+  
+
+<div id="content" class="content">
+    
+<link rel="alternate" type="application/rss+xml" href="../rss/releases.rss" title="Bitcoin Core releases" />
+
+<h1 class="not-displayed" id="bitcoin-core">Bitcoin Core</h1>
+
+<!-- ![Bitcoin Core: Helping You Keep Bitcoin Decentralized](/img/bitcoin-core/en-big-logo.svg?1535137558) -->
+
+<div class="hero core-hero">
+  <div class="container hero-container">
+    <h1>Bitcoin Core</h1>
+    <p class="summary">Helping you keep Bitcoin decentralized.</p>
+    
+
+<div class="row hero-social">
+  <a href="default.htm" onclick="window.open('../../../www.facebook.com/sharer/sharer.php@u=' + encodeURIComponent(location.href))" class="hero-social-link" target="_blank">
+    <img src="../../img/icons/ico_facebook_bright.svg@1535137558.xml" alt="facebook" />
+  </a>
+  <a href="default.htm" onclick="window.open('../../../https@twitter.com/share@url=' + encodeURIComponent(location.href))" class="hero-social-link" target="_blank">
+    <img src="../../img/icons/ico_twitter_bright.svg@1535137558.xml" alt="twitter" />
+  </a>
+</div>
+  </div>
+</div>
+
+<div class="container core-content clearfix">
+<div class="core-column-left">
+
+<div class="callout">
+  <a class="callout-btn btn-bright" href="../download">Download Bitcoin Core</a>
+  <div class="row callout-row">
+    <span class="btn-subtext">Bitcoin Core 0.16.2</span>
+    <div>
+      <img class="callout-img" src="../../img/os/windows.png@1535137558.png" alt="Windows" />
+      <img class="callout-img" src="../../img/os/mac.png@1535137558.png" alt="Mac" />
+      <img class="callout-img" src="../../img/os/linux.png@1535137558.png" alt="Linux" />
+    </div>
+  </div>
+  <hr class="separator btn-separator" />
+</div>
+</div>
+
+<div class="show_less_more core-column-right">
+  <div class="show_less">
+      <p>Bitcoin Core is programmed to decide which block chain contains
+  valid transactions. The users of Bitcoin Core only accept
+  transactions for that block chain, making it the Bitcoin block
+  chain that everyone else wants to use. For the latest developments related to
+  Bitcoin Core, be sure to visit the project’s <a href="../../../https@bitcoincore.org/default.htm">official website</a>.</p>
+    </div>
+
+  <div class="show_more">
+      <div class="row show_more-row">
+    <div class="show_more-block">
+      <img class="show_more-icon" src="../../img/bitcoin-core/decentralized.svg@1535137558.xml" alt="icon" />
+      <p class="show_more-title">Decentralized</p>
+      <p>
+      It is these users who keep Bitcoin decentralized. They
+      individually run their own Bitcoin Core full nodes, and each of
+      those full nodes separately follows the exact same rules to decide
+      which block chain is valid.
+      </p>
+    </div>
+    <div class="show_more-block">
+      <img class="show_more-icon" src="../../img/bitcoin-core/no_voting.svg@1535137558.xml" alt="icon" />
+      <p class="show_more-title">No Voting</p>
+      <p>
+      There's no voting or other corruptible process involved: there's
+      just individual software following identical rules—"math"—to
+      evaluate identical blocks and coming to identical conclusions
+      about which block chain is valid.
+      </p>
+    </div>
+  </div>
+
+      <p>
+  This shared agreement (called consensus) allows people like you to only accept valid bitcoins, enforcing Bitcoin's rules against even the most powerful miners.In addition to improving Bitcoin's decentralization, Bitcoin Core users get:
+  </p>
+
+      <div class="show_more-list">
+
+        <ul>
+          <li><span><a href="features/validation">Better security</a> for their bitcoins</span></li>
+          <li><span><a href="features/privacy">Privacy features</a> not available in other wallets</span></li>
+          <li><span><a href="features/user-interface">User interfaces</a> and other powerful features</span></li>
+        </ul>
+
+        <p> </p>
+
+      </div>
+    </div>
+
+  <p class="center"><button class="toggle_show_more_less js not-displayed"><span class="fa fa-caret-down"></span> Read more</button></p>
+</div>
+
+<div class="core-column-left">
+  <p class="corecard-label">Shortcut:</p>
+  <div class="corecard features-card">
+      <p><a href="features/default.htm">Features</a>
+  Discover what Bitcoin Core offers</p>
+    </div>
+
+  <div class="corecard help-card">
+      <p><a href="help">Get help</a>
+  Documentation, forums, chat rooms</p>
+    </div>
+  
+  <div class="corecard contribute-card">
+      <p><a href="contribute/default.htm">Contribute</a>
+  Code, translations, and more</p>
+    </div>
+</div>
+
+<div class="core-column-right news-block clearfix">
+
+<hr class="separator core-separator" />
+
+<h2 id="news" class="section-title news-title">News</h2>
+<div class="news-list">
+
+      <ul>
+        <li>
+          <p>2018-07-29<a href="../release/v0.16.2">Bitcoin Core version 0.16.2 released</a></p>
+        </li>
+        <li>
+          <p>2018-06-15<a href="../release/v0.16.1">Bitcoin Core version 0.16.1 released</a></p>
+        </li>
+      </ul>
+
+    </div>
+</div>
+
+<div class="core-column-left clearfix">
+  <div class="corecard releases-card">
+      <p><a href="../version-history">Bitcoin Core Releases</a>
+  For more News, see the complete list</p>
+    </div>
+  <div class="corecard rss-card">
+      <p><a type="application/atom+xml" href="../rss/blog.xml">Subscribe to the RSS feed</a>
+  For more notifications of new releases</p>
+    </div>
+</div>
+
+</div>
+
+<script>
+if ( $( window ).width() > 400 && $( window ).height() > 600 ) {
+  $(".show_more").removeClass("show_more");
+  $(".toggle_show_more_less").removeClass("toggle_show_more_less");
+}
+</script>
+
+
+</div>
+
+  <div class="footer">
+    <div class="container">
+      
+
+<a class="logo-footer" href="../default.htm">
+  <img src="../../img/icons/logo-footer.svg@1535137558.xml" alt="Bitcoin">
+</a>
+      
+
+<div class="row footer-row">
+  <div class="donate">
+    <div class="row donate-row">
+      <div>
+        <span class="footer-title">Support Bitcoin.org:</span>
+        <a href="bitcoin_3a3fkencixpslqd8l79intrnxugjroh9sjxa" target="_blank" class="donate-btn btn-bright">Donate</a>
+        <p class="donate-text">Bitcoin.org is community supported.
+          <a class="donate-link" href="bitcoin_3a3fkencixpslqd8l79intrnxugjroh9sjxa" target="_blank">3FkenCiXpSLqD8L79intRNXUgjRoH9sjXa</a>
+        </p>
+      </div>
+      <div class="donate-qrcode">
+        <img src="../../img/footer/qr.png@1535137558.png" alt="QR code">
+      </div>
+    </div>
+  </div>
+
+  <div class="row footermenu">
+    <div class="footermenu-item footermenu-introduction">
+      <p class="footer-title">Introduction:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="../bitcoin-for-individuals.htm">Individuals</a>
+        </li>
+        <li>
+          <a href="../bitcoin-for-businesses.htm">Businesses</a>
+        </li>
+        <li>
+          <a href="../bitcoin-for-developers.htm">Developers</a>
+        </li>
+        <li>
+          <a href="../getting-started.htm">Getting started</a>
+        </li>
+        <li>
+          <a href="../how-it-works.htm">How it works</a>
+        </li>
+        <li>
+          <a href="../you-need-to-know.htm">You need to know</a>
+        </li>
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-resources">
+      <p class="footer-title">Resources:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="../resources.htm">Resources</a>
+          
+        <li>
+          <a href="../exchanges.htm">Exchanges</a>
+        </li>
+          
+        <li>
+          <a href="../community.htm">Community</a>
+        </li>
+        <li>
+          <a href="../vocabulary.htm">Vocabulary
+          </a>
+        </li>
+        <li>
+          <a href="../events.htm">Events</a>
+        </li>
+        
+        <li>
+          <a href="default.htm">Bitcoin Core</a>
+        </li>
+          
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-participate">
+      <p class="footer-title">Participate:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="../support-bitcoin.htm">Support Bitcoin</a>
+          
+        <li>
+          <a href="../buy.htm">Buy Bitcoin</a>
+        </li>
+           
+        <li>
+          <a href="../full-node.htm">Running a full node</a>
+        </li>
+          
+        <li>
+          <a href="../development.htm">Development</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="footermenu-item footermenu-other">
+      <p class="footer-title">Other:</p>
+      <a href="../legal.htm">Legal</a>
+      
+      <a href="../privacy.htm">Privacy Policy</a>
+      
+      <a href="about-site">About</a>
+    </div>
+  </div>
+</div>
+
+    </div>
+    
+
+<div class="footer-bottom">
+  <div class="container">
+    <div class="row footer-bottom-row">
+      <div class="footerlicense">© Bitcoin Project 2009-2018 Released under the <a href="../../../opensource.org/licenses/mit-license.php" target="_blank">MIT license</a>
+        <br> Bitcoin Core pages on Bitcoin.org are
+        <a href="about-site">maintained separately</a> from the rest of the site.
+      </div>
+      <div class="row footer-social">
+        <a href="default.htm" onclick="window.open('../../../www.facebook.com/sharer/sharer.php@u=' + encodeURIComponent(location.href))" class="footer-social-link" target="_blank">
+          <img src="../../img/icons/ico_facebook_dark.svg@1535137558.xml" alt="facebook" class="footer-social-img">
+        </a>
+        <a href="default.htm" onclick="window.open('../../../https@twitter.com/share@url=' + encodeURIComponent(location.href))" class="footer-social-link" target="_blank">
+          <img src="../../img/icons/ico_twitter_dark.svg@1535137558.xml" alt="twitter" class="footer-social-img">
+        </a>
+      </div>
+      <div class="row footer-status-block">
+        <a href="../alerts.htm" class="statusmenu">Network Status</a>
+        
+<ul class="lang is-expand">
+  <li><a>English</a>
+  <ul>
+    <li><ul>
+      
+      
+        
+          <li><a href="../../id/default.htm">Bahasa Indonesia</a></li>
+        
+        
+          <li><a href="../../da/default.htm">Dansk</a></li>
+        
+        
+          <li><a href="../../de/default.htm">Deutsch</a></li>
+        
+        
+          <li><a href="../default.htm" class="active">English</a></li>
+        
+        
+          <li><a href="../../es/default.htm">Español</a></li>
+        
+        
+          <li><a href="../../fr/default.htm">Français</a></li>
+        
+        
+          <li><a href="../../it/default.htm">Italiano</a></li>
+        
+        
+          <li><a href="../../hu/default.htm">Magyar</a></li>
+        
+        
+          <li><a href="../../nl/default.htm">Nederlands</a></li>
+        
+        
+          <li><a href="../../pl/default.htm">Polski</a></li>
+        
+        
+          <li><a href="../../pt_br/default.htm">Português Brasil</a></li>
+        
+        
+          <li><a href="../../ro/default.htm">Română</a></li>
+        
+        
+          <li><a href="../../sl/default.htm">Slovenščina</a></li>
+        
+        
+          <li><a href="../../sr/default.htm">Srpski</a></li>
+        
+        </ul></li><li><ul>
+          <li><a href="../../sv/default.htm">Svenska</a></li>
+        
+        
+          <li><a href="../../tr/default.htm">Türkçe</a></li>
+        
+        
+          <li><a href="../../el/default.htm">Ελληνικά</a></li>
+        
+        
+          <li><a href="../../bg/default.htm">български</a></li>
+        
+        
+          <li><a href="../../ru/default.htm">Русский</a></li>
+        
+        
+          <li><a href="../../uk/default.htm">Українська</a></li>
+        
+        
+          <li><a href="../../ar/default.htm">العربية</a></li>
+        
+        
+          <li><a href="../../fa/default.htm">فارسی</a></li>
+        
+        
+          <li><a href="../../hi/default.htm">हिन्दी</a></li>
+        
+        
+          <li><a href="../../ko/default.htm">한국의</a></li>
+        
+        
+          <li><a href="../../ja/default.htm">日本語</a></li>
+        
+        
+          <li><a href="../../zh_cn/default.htm">简体中文</a></li>
+        
+        
+          <li><a href="../../zh_tw/default.htm">繁體中文</a></li>
+        
+      </ul></li>
+    </ul>
+  </li>
+</ul>
+
+        <div id="footer-langselect" class="footer-langselect langselect">
+          <label for="select-input-footer" class="center-select">
+            <select class="center-select__input" onchange="window.location=this.value; ">
+              
+              <option value="../../id/default.htm" >Bahasa Indonesia</option>
+              
+              <option value="../../da/default.htm" >Dansk</option>
+              
+              <option value="../../de/default.htm" >Deutsch</option>
+              
+              <option value="../default.htm"  selected="selected">English</option>
+              
+              <option value="../../es/default.htm" >Español</option>
+              
+              <option value="../../fr/default.htm" >Français</option>
+              
+              <option value="../../it/default.htm" >Italiano</option>
+              
+              <option value="../../hu/default.htm" >Magyar</option>
+              
+              <option value="../../nl/default.htm" >Nederlands</option>
+              
+              <option value="../../pl/default.htm" >Polski</option>
+              
+              <option value="../../pt_br/default.htm" >Português Brasil</option>
+              
+              <option value="../../ro/default.htm" >Română</option>
+              
+              <option value="../../sl/default.htm" >Slovenščina</option>
+              
+              <option value="../../sr/default.htm" >Srpski</option>
+              
+              <option value="../../sv/default.htm" >Svenska</option>
+              
+              <option value="../../tr/default.htm" >Türkçe</option>
+              
+              <option value="../../el/default.htm" >Ελληνικά</option>
+              
+              <option value="../../bg/default.htm" >български</option>
+              
+              <option value="../../ru/default.htm" >Русский</option>
+              
+              <option value="../../uk/default.htm" >Українська</option>
+              
+              <option value="../../ar/default.htm" >العربية</option>
+              
+              <option value="../../fa/default.htm" >فارسی</option>
+              
+              <option value="../../hi/default.htm" >हिन्दी</option>
+              
+              <option value="../../ko/default.htm" >한국의</option>
+              
+              <option value="../../ja/default.htm" >日本語</option>
+              
+              <option value="../../zh_cn/default.htm" >简体中文</option>
+              
+              <option value="../../zh_tw/default.htm" >繁體中文</option>
+              
+            </select>
+            <span class="center-select__text">en</span>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+
+
+
+
+  <script src="../../js/bitcoin-core.js"></script>
+
+
+
+
+<script type="text/javascript">
+  fallbackSVG();
+  addAnchorLinks();
+  trackOutgoingLinks();
+</script>
+
+
+
+
+
+
+</body>
+
+</html>
