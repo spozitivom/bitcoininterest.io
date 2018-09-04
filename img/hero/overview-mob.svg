@@ -1,93 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="320px" height="547px" viewBox="0 0 320 547" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
-    <title>bottom hero</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <polygon id="path-1" points="0.0499288568 15.2568998 6.4 13.6160543 18 16.6195957 22.8 9.81156854 31 6.20731887 41.8 6.20731887 44 13.6160543 58.2 13.6160543 63.4 16.6195957 71.4 12.6148738 86 4.40519404 92 8.40991589 98.2 8.40991589 105.6 4.00472185 111.2 4.40519404 123.4 6.20731887 129.6 6.20731887 140.8 10.6125129 146.6 6.20731887 155.8 2.40283311 165.6 4.40519404 172 12.6148738 181.2 13.6160543 185.6 18.6219566 194 15.4181791 210.2 8.40991589 215.2 13.6160543 221 14.6172348 231.4 9.81156854 242.2 14.6172348 254.2 8.40991589 274.2 6.20731887 287.4 7.60897152 292.6 1.40165265 301.4 0 309.2 4.40519404 314.2 9.31097831 320.004973 9.00701845 320.004973 40.6 0.0499288568 40.6"></polygon>
-    </defs>
-    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="22/01/18-Bitcoin.org-ver3--Mobile-320px" transform="translate(0.000000, -512.000000)">
-            <g id="//HERO">
-                <g id="bottom-hero" transform="translate(0.000000, 513.000000)">
-                    <rect id="Rectangle" fill="#13161F" x="0" y="59" width="320" height="487"></rect>
-                    <g id="ver-3-bg-element">
-                        <g>
-                            <g id="Group-5" transform="translate(0.000000, 2.400000)" stroke="#D1D1D1">
-                                <polyline id="Path-4" points="0.0821103445 37.7434974 49.6 16.2 85.4 37.6 147.4 43 231.4 21.8 274.4 6.4"></polyline>
-                                <path d="M75.8,0.2 L49.2,16.4" id="Path-18"></path>
-                                <polyline id="Path-3" points="0.0499288568 14.3753672 8 7 49.8 16.6 21.8 55.2 85.4 37.2 75.6 0 147.2 43.2 168.2 15.6 231.6 21.4 292 45.4 274.2 6 313.4 0 320.004973 7.66176884"></polyline>
-                                <polyline id="Path-7" points="313.2 0.4 291.6 45.6 267.2 54.6 231.8 21.6 204.4 53.8"></polyline>
-                            </g>
-                            <g id="Group-5" transform="translate(0.000000, 19.400000)">
-                                <mask id="mask-2" fill="white">
-                                    <use xlink:href="#path-1"></use>
-                                </mask>
-                                <use id="Mask" fill="#13161F" xlink:href="#path-1"></use>
-                                <g mask="url(#mask-2)" stroke="#3D3D3D">
-                                    <g transform="translate(-8.600000, -17.000000)">
-                                        <polyline id="Path-4" points="8.68265208 37.7432618 58.2 16.2 94 37.6 156 43 240 21.8 283 6.4"></polyline>
-                                        <path d="M84.4,0.2 L57.8,16.4" id="Path-18"></path>
-                                        <polyline id="Path-3" points="0 22.4 16.6 7 58.4 16.6 30.4 55.2 94 37.2 84.2 0 155.8 43.2 176.8 15.6 240.2 21.4 300.6 45.4 282.8 6 322 0 342 23.2"></polyline>
-                                        <polyline id="Path-7" points="321.8 0.4 300.2 45.6 275.8 54.6 240.4 21.6 213 53.8"></polyline>
-                                    </g>
-                                </g>
-                            </g>
-                            <g id="Group-4" transform="translate(5.200000, 0.000000)">
-                                <g id="Group-3" transform="translate(71.400000, 24.200000)"></g>
-                                <g id="dots" transform="translate(67.800000, 0.000000)">
-                                    <circle id="Oval-2" fill="#FF7E00" cx="2.5" cy="2.5" r="1"></circle>
-                                    <circle id="Oval-2" stroke="#FF7E00" cx="2.5" cy="2.5" r="2.5"></circle>
-                                </g>
-                                <g id="dots" transform="translate(40.600000, 5.200000)">
-                                    <circle id="Oval-2" fill="#FF7E00" cx="3.5" cy="13.5" r="1.1"></circle>
-                                    <circle id="Oval-2" stroke="#FF7E00" cx="3.5" cy="13.5" r="3.5"></circle>
-                                    <circle id="Oval-2" fill="#FF7E00" cx="101.5" cy="40.5" r="1.1"></circle>
-                                    <circle id="Oval-2" stroke="#FF7E00" cx="101.5" cy="40.5" r="3.5"></circle>
-                                    <circle id="Oval-2" fill="#FF7E00" cx="228.3" cy="3.5" r="1.1"></circle>
-                                    <circle id="Oval-2" stroke="#FF7E00" cx="228.3" cy="3.5" r="3.5"></circle>
-                                </g>
-                                <g id="dots" transform="translate(223.800000, 21.400000)">
-                                    <circle id="Oval-2" fill="#C4C4C4" cx="2.5" cy="2.5" r="1"></circle>
-                                    <circle id="Oval-2" stroke="#CACACA" cx="2.5" cy="2.5" r="2.5"></circle>
-                                </g>
-                                <g id="dots" opacity="0.699999988" transform="translate(197.000000, 53.800000)">
-                                    <circle id="Oval-2" fill="#C4C4C4" cx="2.5" cy="2.5" r="1"></circle>
-                                    <circle id="Oval-2" stroke="#CACACA" cx="2.5" cy="2.5" r="2.5"></circle>
-                                </g>
-                                <g id="dots" opacity="0.699999988" transform="translate(283.800000, 45.400000)">
-                                    <circle id="Oval-2" fill="#C4C4C4" cx="2.5" cy="2.5" r="1"></circle>
-                                    <circle id="Oval-2" stroke="#CACACA" cx="2.5" cy="2.5" r="2.5"></circle>
-                                </g>
-                                <g id="dots" opacity="0.600000024" transform="translate(14.000000, 55.000000)">
-                                    <circle id="Oval-2" fill="#C4C4C4" cx="2.5" cy="2.5" r="1"></circle>
-                                    <circle id="Oval-2" stroke="#CACACA" cx="2.5" cy="2.5" r="2.5"></circle>
-                                </g>
-                                <g id="dots" transform="translate(0.000000, 7.000000)">
-                                    <circle id="Oval-2" fill="#C4C4C4" cx="2.5" cy="2.5" r="1"></circle>
-                                    <circle id="Oval-2" stroke="#CACACA" cx="2.5" cy="2.5" r="2.5"></circle>
-                                </g>
-                                <g id="dots" transform="translate(259.200000, 54.600000)">
-                                    <circle id="Oval-2" fill="#FF7E00" cx="2.5" cy="2.5" r="1"></circle>
-                                    <circle id="Oval-2" stroke="#FF7E00" cx="2.5" cy="2.5" r="2.5"></circle>
-                                </g>
-                                <g id="dots" transform="translate(77.400000, 37.200000)">
-                                    <circle id="Oval-2" fill="#FF7E00" cx="2.5" cy="2.5" r="1"></circle>
-                                    <circle id="Oval-2" stroke="#FF7E00" cx="2.5" cy="2.5" r="2.5"></circle>
-                                </g>
-                                <g id="dots" transform="translate(305.400000, 0.200000)">
-                                    <circle id="Oval-2" fill="#FF7E00" cx="2.5" cy="2.5" r="1"></circle>
-                                    <circle id="Oval-2" stroke="#FF7E00" cx="2.5" cy="2.5" r="2.5"></circle>
-                                </g>
-                                <g id="dots" transform="translate(160.200000, 15.600000)">
-                                    <circle id="Oval-2" fill="#FF7E00" cx="2.5" cy="2.5" r="1"></circle>
-                                    <circle id="Oval-2" stroke="#FF7E00" cx="2.5" cy="2.5" r="2.5"></circle>
-                                </g>
-                            </g>
-                        </g>
-                    </g>
-                </g>
-            </g>
-        </g>
-    </g>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Creator: CorelDRAW 2017 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="1000px" height="1708px" version="1.0" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 1028.39 1756.49"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil3 {fill:#213D8F}
+    .fil1 {fill:#DCDFED}
+    .fil4 {fill:#FF7A0B}
+    .fil0 {fill:white}
+    .fil2 {fill:#DCDFED;fill-rule:nonzero}
+   ]]>
+  </style>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <rect class="fil0" width="1028.39" height="1756.49"/>
+  <g id="_1483252593408">
+   <path class="fil1" d="M291.6 154.43c3.69,-3.62 7.42,-7.1 11.17,-10.42 29.54,-26.14 70.58,-50.34 107.5,-62.53 5.11,-1.68 9.06,-3.18 14.3,-4.47 24.5,-6.03 31.35,-8.72 59.73,-11.39 50.37,-4.75 97.93,2.93 145.06,20.63 4.92,1.85 10.36,4.03 14.54,6.03l27.36 14.09c19.49,10.23 35.64,23.9 52.3,37.67 2.67,2.2 3.16,2.81 5.56,5.05 1.94,1.82 3.8,3.58 5.6,5.34l49.14 0c-7.47,-8.9 -11.25,-13.33 -27.39,-29.57 -12.85,-12.93 -34.86,-29.6 -50.45,-39.82 -11.81,-7.75 -16.89,-10.32 -28.87,-16.81 -48.76,-26.39 -103.31,-38.88 -158.65,-40.05 -22.3,-0.47 -51.01,1.62 -72.04,6.2 -5.97,1.3 -10.64,2.05 -16.58,3.47l-23.51 6.52c-2.21,0.7 -1.75,0.8 -3.54,1.42 -1.73,0.6 -2.73,0.63 -4.45,1.22l-14.9 5.74c-10.21,4.3 -18.51,7.42 -28.77,12.82 -11.47,6.04 -22.56,11.94 -33.27,19.13l-13.13 9.13c-7.05,5.05 -3.07,0.8 -12.37,9.12 -2.02,1.81 -4.16,3.19 -6.37,4.82l-11.83 9.85c-7.74,7.39 -14.98,13.73 -22.15,21.71 -4.98,5.53 -9.34,10.47 -13.3,15.1l49.31 0z"/>
+   <path class="fil2" d="M556.02 109.32c12.18,1.76 15.62,-16.38 2.94,-18.83 -32.1,-5.14 -63.87,-5.17 -95.98,-0.04l-1.96 0.32c-12.4,2.19 -9.02,20.93 3.28,18.77l1.71 -0.28c30.32,-4.78 59.7,-4.79 90.01,0.06zm145.38 45.11l-31.46 0c-11.07,-7.67 -22.71,-14.55 -35.08,-20.76l-1.56 -0.77c-11.26,-5.4 -3.09,-22.6 8.27,-17.17l1.78 0.88c20.99,10.48 40.26,23.05 58.05,37.82zm-343.83 0l-31.73 0c15.72,-12.92 32.65,-24.15 50.94,-33.79l1.77 -0.92c11.23,-5.7 19.79,11.33 8.63,16.97l-1.54 0.81c-9.8,5.2 -19.14,10.82 -28.07,16.93z"/>
+  </g>
+  <rect class="fil3" y="154.44" width="1028.37" height="1602.05"/>
+  <path class="fil3" d="M0 111.99l86.48 -86.48c2.18,-2.18 5.76,-2.18 7.95,0l0 0c2.19,2.19 2.19,5.77 0,7.96l-94.43 94.43 0 -15.91z"/>
+  <path class="fil4" d="M0 146.02l74.27 -74.26c6.06,-6.07 15.98,-6.07 22.05,0l0 0c6.06,6.06 6.06,15.99 0,22.05l-89.15 89.15c-2.05,2.05 -4.54,3.41 -7.17,4.07l0 -41.01z"/>
+  <path class="fil0" d="M37.74 168.54l106.12 -106.12c1.4,-1.4 3.68,-1.4 5.08,0l0 0c1.4,1.4 1.4,3.69 0,5.09l-106.12 106.12c-1.39,1.4 -3.68,1.4 -5.08,0l0 0c-1.4,-1.4 -1.4,-3.69 0,-5.09z"/>
+  <path class="fil4" d="M4.64 223.66l218.9 -218.9c0.7,-0.7 1.84,-0.7 2.54,0l0 0c0.7,0.7 0.7,1.85 0,2.54l-218.9 218.91c-0.7,0.7 -1.85,0.7 -2.54,0l0 0c-0.7,-0.7 -0.7,-1.85 0,-2.55z"/>
+  <path class="fil3" d="M62.94 183.45l154.73 -154.74c2.98,-2.97 7.84,-2.97 10.81,0l0 0c2.97,2.97 2.97,7.84 0,10.81l-154.73 154.73c-2.98,2.97 -7.84,2.97 -10.81,0l0 0c-2.97,-2.97 -2.97,-7.83 0,-10.8z"/>
+  <path class="fil0" d="M43.83 233.4l160.14 -160.14c1.48,-1.48 3.91,-1.48 5.4,0l0 0c1.49,1.49 1.49,3.92 0,5.4l-160.14 160.14c-1.48,1.49 -3.91,1.49 -5.4,0l0 0c-1.49,-1.48 -1.49,-3.91 0,-5.4z"/>
+  <path class="fil3" d="M1028.38 145.88l-72.13 72.13c-2.19,2.19 -5.77,2.19 -7.95,0l0 0c-2.19,-2.18 -2.19,-5.76 0,-7.95l80.08 -80.09 0 15.91z"/>
+  <path class="fil4" d="M1028.39 111.48l-85.77 85.77c-6.07,6.07 -15.99,6.07 -22.06,0l0 0c-6.06,-6.06 -6.06,-15.98 0,-22.05l107.83 -107.82 0 44.1z"/>
+  <path class="fil0" d="M961.5 117.85l-106.12 106.12c-1.4,1.4 -3.69,1.4 -5.08,0l-0.01 0c-1.39,-1.4 -1.39,-3.69 0,-5.09l106.12 -106.11c1.4,-1.4 3.69,-1.4 5.09,0l0 0c1.4,1.39 1.4,3.68 0,5.08z"/>
+  <path class="fil4" d="M1028.38 29.58l-209.19 209.19c-0.7,0.69 -1.84,0.69 -2.54,0l0 0c-0.7,-0.7 -0.7,-1.85 0,-2.55l211.73 -211.73 0 5.09z"/>
+  <path class="fil3" d="M976.07 60.94l-138.58 138.59c-2.66,2.66 -7.02,2.66 -9.68,0l0 0c-2.66,-2.66 -2.66,-7.02 0,-9.68l138.58 -138.58c2.67,-2.67 7.02,-2.67 9.68,0l0 0c2.66,2.66 2.66,7.01 0,9.67z"/>
+  <path class="fil0" d="M986 21.89l-160.14 160.14c-1.48,1.48 -3.91,1.48 -5.4,0l0 0c-1.49,-1.49 -1.49,-3.92 0,-5.4l160.14 -160.14c1.48,-1.49 3.91,-1.49 5.4,0l0 0c1.49,1.49 1.49,3.91 0,5.4z"/>
+ </g>
 </svg>
